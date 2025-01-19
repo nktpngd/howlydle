@@ -212,9 +212,9 @@ export const EmployeesAutocomplete = () => {
     <Autocomplete
       aria-label="Select an employee"
       classNames={{
-        base: ' z-10',
-        listboxWrapper: 'max-h-[320px]',
-        selectorButton: 'text-default-500',
+        base: 'z-10',
+        listboxWrapper: 'max-h-[320px] z-10',
+        selectorButton: 'text-default-500 z-10',
       }}
       defaultItems={users}
       inputProps={{
@@ -265,7 +265,6 @@ export const EmployeesAutocomplete = () => {
               />
               <div className="flex flex-col">
                 <span className="text-small">{item.name}</span>
-                <span className="text-tiny text-default-400">{item.team}</span>
               </div>
             </div>
           </div>
