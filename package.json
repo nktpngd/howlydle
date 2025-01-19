@@ -10,6 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/autocomplete": "^2.3.11",
+    "@heroui/avatar": "^2.2.7",
+    "@heroui/system": "^2.4.7",
+    "@heroui/theme": "^2.4.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.1",
