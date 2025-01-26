@@ -4,6 +4,7 @@ import { BeamsWrapper } from '@/components/beams-wrapper';
 import { EmployeesAutocomplete } from '@/components/autocomplete';
 import { PeopleFoundOut } from '@/components/people-found-out';
 import { YesterdaysEmployee } from '@/components/yesterdays-employee';
+import { GuessTable } from '@/components/guess-table';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Logo />
       <InfoCard />
       <EmployeesAutocomplete />
+      <GuessTable />
       <PeopleFoundOut />
       <YesterdaysEmployee />
     </BeamsWrapper>
