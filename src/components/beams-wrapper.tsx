@@ -1,4 +1,3 @@
-import { BackgroundBeams } from '@/components/ui/background-beams';
 import { FC, PropsWithChildren } from 'react';
 
 export const BeamsWrapper: FC<PropsWithChildren> = ({ children }) => {
@@ -7,8 +6,6 @@ export const BeamsWrapper: FC<PropsWithChildren> = ({ children }) => {
       <div className="flex flex-col items-center justify-center gap-4 md:gap-10 mx-auto p-4 w-full">
         {children}
       </div>
-
-      <BackgroundBeams />
     </div>
   );
 };

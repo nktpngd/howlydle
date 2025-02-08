@@ -9,7 +9,7 @@ export const employees: Employee[] = [
     zone: Zone.CLevel,
     affiliation: Affiliation.Tech,
     age: '25-30',
-    startYear: 2023,
+    startYear: 2021,
   },
   {
     id: '2',
@@ -29,7 +29,7 @@ export const employees: Employee[] = [
     gender: 'Female',
     affiliation: Affiliation.Shared,
     age: '20-25',
-    startYear: 2023,
+    startYear: 2025,
   },
   {
     id: '4',
@@ -49,6 +49,6 @@ export const employees: Employee[] = [
     gender: 'Female',
     affiliation: Affiliation.BetterCV,
     age: '20-25',
-    startYear: 2023,
+    startYear: 2021,
   },
 ];
