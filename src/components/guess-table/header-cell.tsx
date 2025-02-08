@@ -6,8 +6,6 @@ interface HeaderCellProps {
 
 export const HeaderCell = ({ text }: HeaderCellProps) => {
   return (
-    <div className="flex items-center justify-center p-4 rounded w-[100px] bg-gray-700">
-      {text}
-    </div>
+    <div className="flex items-center justify-center p-4 rounded w-[100px] bg-gray-700">{text}</div>
   );
 };

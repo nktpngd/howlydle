@@ -6,10 +6,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function compareEmployees(
-  guessEmployee: Employee,
-  secretEmployee: Employee
-) {
+export function compareEmployees(guessEmployee: Employee, secretEmployee: Employee) {
   return {
     avatar: {
       value: guessEmployee.avatar,
@@ -22,9 +19,7 @@ export function compareEmployees(
     age: {
       value: guessEmployee.age,
       isMatch: guessEmployee.age === secretEmployee.age,
-      comparison: (guessEmployee.age > secretEmployee.age
-        ? 'lower'
-        : 'higher') as ComparisonType,
+      comparison: (guessEmployee.age > secretEmployee.age ? 'lower' : 'higher') as ComparisonType,
     },
     zone: {
       value: guessEmployee.zone,
