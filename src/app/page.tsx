@@ -12,9 +12,9 @@ export default function Home() {
     <BeamsWrapper>
       <Logo />
       <InfoCard />
+      <WinningCard />
       <EmployeesAutocomplete />
       <GuessTable />
-      <WinningCard />
       <PeopleFoundOut />
       <YesterdaysEmployee />
     </BeamsWrapper>

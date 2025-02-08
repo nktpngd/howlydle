@@ -37,6 +37,7 @@ export const EmployeesAutocomplete = () => {
 
   return (
     <Autocomplete
+      isVirtualized={false}
       aria-label="Select an employee"
       classNames={{
         base: 'z-10 max-w-[520px]',

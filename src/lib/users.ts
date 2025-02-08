@@ -125,11 +125,11 @@ export const employees: Employee[] = [
   {
     id: '12',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/aaf4eabc-c1d1-4f1c-9ca6-45cd5b83f115?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTMzMjM2OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWFmNGVhYmMtYzFkMS00ZjFjLTljYTYtNDVjZDViODNmMTE1Kn5obWFjPThjMTBkNWExMzQ2MDhkYjUxMDAzZTUzYmE2NWY5MzgxODdjMWZjNDI0ZGRhNGMzMjI3MjMyY2FjZGYyMzMyZTQ=&vendor=cloudinary',
-    name: 'Alina Matushchak',
-    zone: Zone.Frontend,
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/384fafa8-a56f-4fcf-8dac-15e10adefced?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODIyMTk3NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMzg0ZmFmYTgtYTU2Zi00ZmNmLThkYWMtMTVlMTBhZGVmY2VkKn5obWFjPTYzNTllM2VhNzgyZDRmNjYwNjVkZTY4NmJhODljYjcwOTIyY2FlOTc3NzRmYmMyMzU0ZDJkMmU2ZDI0YzkyMTQ=&vendor=cloudinary',
+    name: 'Patrisiia Hevorkian',
+    zone: Zone.HR,
     gender: 'Female',
-    affiliation: Affiliation.LegalForms,
+    affiliation: Affiliation.Shared,
     age: '25-30',
     startYear: 2024,
   },
@@ -147,7 +147,7 @@ export const employees: Employee[] = [
   {
     id: '14',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/0d330447-9034-4474-bcb8-c96dfc102984?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MDY0MTEzMH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMGQzMzA0NDctOTAzNC00NDc0LWJjYjgtYzk2ZGZjMTAyOTg0Kn5obWFjPWFjMjFlZjdmNTlmNGI1OTAxM2I0MmYxZjVhNjY0OWMzMzA4MTk4ZTJiMjQzN2M1MWVkYTNhNDBlOWQ2OWU0ZmY=&vendor=cloudinary',
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/9dfa82d1-5b0a-4b65-b3c1-68e4b6591927?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODEzNTU3OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOWRmYTgyZDEtNWIwYS00YjY1LWIzYzEtNjhlNGI2NTkxOTI3Kn5obWFjPWFjNjVjNGMxYjJiZDEzZDhkMWRkY2UwYmNmMjE0NmYzZDg5YzYxNDQ3NmM2ODE4YzVkNTMzYTBiNzI5MjAwMTc=&vendor=cloudinary',
     name: 'Anastasiia Tilikina',
     zone: Zone.Frontend,
     gender: 'Female',
@@ -158,13 +158,13 @@ export const employees: Employee[] = [
   {
     id: '15',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/9dfa82d1-5b0a-4b65-b3c1-68e4b6591927?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODEzNTU3OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOWRmYTgyZDEtNWIwYS00YjY1LWIzYzEtNjhlNGI2NTkxOTI3Kn5obWFjPWFjNjVjNGMxYjJiZDEzZDhkMWRkY2UwYmNmMjE0NmYzZDg5YzYxNDQ3NmM2ODE4YzVkNTMzYTBiNzI5MjAwMTc=&vendor=cloudinary',
-    name: 'Anastasiia Tilikina',
-    zone: Zone.Frontend,
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ccb2eaf8-4249-48de-b46c-65910b8444e3?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTc3NzEyMn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmY2NiMmVhZjgtNDI0OS00OGRlLWI0NmMtNjU5MTBiODQ0NGUzKn5obWFjPTMyYjc0YzA2NGYxNDg0MmM3OTczMDI1YTJjNDJlNTRhOWZhZjQ1OTcxNDU4NDgwNzYyNjYzZmVhY2ZkNWM4NDA=&vendor=cloudinary',
+    name: 'Nataliia Nagirna',
+    zone: Zone.HR,
     gender: 'Female',
-    affiliation: Affiliation.Tech,
+    affiliation: Affiliation.Shared,
     age: '25-30',
-    startYear: 2023,
+    startYear: 2022,
   },
   {
     id: '16',
@@ -734,28 +734,6 @@ export const employees: Employee[] = [
     name: 'Pavlo Mykytas',
     zone: Zone.Payments,
     gender: 'Male',
-    affiliation: Affiliation.Shared,
-    age: '25-30',
-    startYear: 2022,
-  },
-  {
-    id: '68',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/384fafa8-a56f-4fcf-8dac-15e10adefced?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODIyMTk3NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMzg0ZmFmYTgtYTU2Zi00ZmNmLThkYWMtMTVlMTBhZGVmY2VkKn5obWFjPTYzNTllM2VhNzgyZDRmNjYwNjVkZTY4NmJhODljYjcwOTIyY2FlOTc3NzRmYmMyMzU0ZDJkMmU2ZDI0YzkyMTQ=&vendor=cloudinary',
-    name: 'Patrisiia Hevorkian',
-    zone: Zone.HR,
-    gender: 'Female',
-    affiliation: Affiliation.Shared,
-    age: '25-30',
-    startYear: 2024,
-  },
-  {
-    id: '69',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ccb2eaf8-4249-48de-b46c-65910b8444e3?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTc3NzEyMn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmY2NiMmVhZjgtNDI0OS00OGRlLWI0NmMtNjU5MTBiODQ0NGUzKn5obWFjPTMyYjc0YzA2NGYxNDg0MmM3OTczMDI1YTJjNDJlNTRhOWZhZjQ1OTcxNDU4NDgwNzYyNjYzZmVhY2ZkNWM4NDA=&vendor=cloudinary',
-    name: 'Nataliia Nagirna',
-    zone: Zone.HR,
-    gender: 'Female',
     affiliation: Affiliation.Shared,
     age: '25-30',
     startYear: 2022,

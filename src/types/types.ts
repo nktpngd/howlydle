@@ -16,9 +16,9 @@ export enum Zone {
 export enum Affiliation {
   Tech = 'Tech',
   PDFAid = 'PDFAid',
-  LegalAnswers = 'LegalAnswers',
-  BetterCV = 'BetterCV',
-  LegalForms = 'LegalForms',
+  LegalAnswers = 'Legal Answers',
+  BetterCV = 'Better CV',
+  LegalForms = 'Legal Forms',
   Shared = 'Shared',
 }
 
