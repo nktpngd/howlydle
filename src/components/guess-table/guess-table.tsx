@@ -13,7 +13,7 @@ export const GuessTable = () => {
   }
 
   return (
-    <div className="flex flex-col gap-2 z-10">
+    <div className="flex flex-col gap-2">
       <TableHeader />
       <TableRows employees={guessedEmployees} secretEmployee={secretEmployee} />
     </div>

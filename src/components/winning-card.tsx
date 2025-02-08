@@ -24,9 +24,9 @@ export const WinningCard = () => {
         damping: 4.1,
         mass: 0.2,
       }}
-      className="group relative rounded-lg z-10 max-w-[520px] w-full mx-auto mt-6"
+      className="group relative rounded-lg max-w-[520px] w-full mx-auto mt-6"
     >
-      <div className="z-10 relative overflow-hidden rounded-xl bg-zinc-300/30 p-[1px] dark:bg-zinc-700/30">
+      <div className="relative overflow-hidden rounded-xl bg-zinc-300/30 p-[1px] dark:bg-zinc-700/30">
         <Spotlight
           className="from-green-600 via-green-500 to-green-400 blur-3xl dark:from-green-200 dark:via-green-300 dark:to-green-400"
           size={200}
