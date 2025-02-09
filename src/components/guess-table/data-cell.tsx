@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Avatar } from '@heroui/avatar';
+import { ArrowBigUp, ArrowBigDown } from 'lucide-react';
 
 export type CellType = 'avatar' | 'text' | 'number';
 
@@ -21,12 +21,20 @@ export const DataCell: React.FC<DataCellProps> = ({
   animate = false,
   delay = 0,
 }) => {
-  const bgColor = isMatch ? 'bg-green-600' : 'bg-red-600';
-  const borderColor = isMatch ? 'border-green-400' : 'border-red-400';
+  const bgColor = isMatch ? 'bg-green-700' : 'bg-red-700';
+  const borderColor = isMatch ? 'border-green-500' : 'border-red-500';
 
   const renderComparisonIndicator = () => {
-    if (!comparison) return null;
-    return comparison === 'higher' ? '↑' : '↓';
+    if (!comparison || type !== 'number' || isMatch) return null;
+    return (
+      <div className={`z-0 absolute flex items-center justify-center w-full h-full`}>
+        {comparison === 'higher' ? (
+          <ArrowBigUp className="w-full h-full text-red-800" />
+        ) : (
+          <ArrowBigDown className="w-full h-full text-red-800" />
+        )}
+      </div>
+    );
   };
 
   if (type === 'avatar') {
@@ -69,17 +77,15 @@ export const DataCell: React.FC<DataCellProps> = ({
 
         {/* Front face */}
         <div
-          className={`absolute w-full h-full flex items-center justify-center rounded border-1 ${borderColor} ${bgColor}`}
+          className={`w-full h-full flex items-center justify-center rounded border-1 ${borderColor} ${bgColor}`}
           style={{
             backfaceVisibility: 'hidden',
           }}
         >
-          <div className="flex items-center gap-1">
-            <span className="font-medium text-xs sm:text-lg text-center">{value}</span>
-            {type === 'number' && !isMatch && (
-              <span className="text-white text-xs sm:text-sm">{renderComparisonIndicator()}</span>
-            )}
+          <div className="flex items-center gap-1 z-10">
+            <span className="font-medium text-xs sm:text-lg text-center text-white">{value}</span>
           </div>
+          {renderComparisonIndicator()}
         </div>
       </motion.div>
     </div>
