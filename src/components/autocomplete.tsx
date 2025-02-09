@@ -10,7 +10,9 @@ import { useGame } from '@/contexts/game-context';
 
 export const EmployeesAutocomplete = () => {
   const { guessedEmployees, addGuess, isGameWon } = useGame();
-  const [availableEmployees, setAvailableEmployees] = useState<Employee[]>(employees);
+  const [availableEmployees, setAvailableEmployees] = useState<Employee[]>(
+    [...employees].sort((a, b) => a.name.localeCompare(b.name))
+  );
   const inputRef = useRef<HTMLInputElement>(null);
 
   // Filter out already guessed employees from the available options
@@ -21,11 +23,10 @@ export const EmployeesAutocomplete = () => {
   const handleSelectionChange = (employeeId: Key | null) => {
     if (employeeId) {
       const selectedEmployee = availableEmployees.find((emp) => emp.id === employeeId);
+
       if (selectedEmployee) {
         addGuess(selectedEmployee);
-        // Update the available employees list by filtering out the selected employee
         setAvailableEmployees((prev) => prev.filter((emp) => emp.id !== employeeId));
-        // Unfocus the input
         inputRef.current?.blur();
       }
     }
