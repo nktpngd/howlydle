@@ -40,14 +40,18 @@ export const EmployeesAutocomplete = () => {
     <Autocomplete
       isVirtualized={false}
       aria-label="Select an employee"
-      classNames={{
-        base: 'z-10 max-w-[520px]',
-        listboxWrapper: 'max-h-[320px] z-10',
-        selectorButton: 'text-default-500 z-10',
-      }}
       defaultItems={filteredEmployees}
+      placeholder="Enter employee name"
+      variant="bordered"
+      radius="full"
+      startContent={<SearchIcon className="text-default-400" size={20} strokeWidth={2.5} />}
+      onSelectionChange={handleSelectionChange}
+      classNames={{
+        base: 'max-w-[520px]',
+        listboxWrapper: 'max-h-[320px]',
+        selectorButton: 'text-default-500',
+      }}
       inputProps={{
-        ref: inputRef,
         classNames: {
           input: 'ml-1',
           inputWrapper: 'h-[48px]',
@@ -69,7 +73,6 @@ export const EmployeesAutocomplete = () => {
           ],
         },
       }}
-      placeholder="Enter employee name"
       popoverProps={{
         offset: 10,
         classNames: {
@@ -77,10 +80,6 @@ export const EmployeesAutocomplete = () => {
           content: 'p-1 border-small border-default-100 bg-background',
         },
       }}
-      radius="full"
-      startContent={<SearchIcon className="text-default-400" size={20} strokeWidth={2.5} />}
-      variant="bordered"
-      onSelectionChange={handleSelectionChange}
     >
       {(item) => (
         <AutocompleteItem key={item.id} value={item.id} textValue={item.name}>
