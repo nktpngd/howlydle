@@ -565,7 +565,7 @@ export const employees: Employee[] = [
   {
     id: '52',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/7d77e0db-9451-43cc-9ef0-527b6c8be9a7?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTY1MTUwN35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmN2Q3N2UwZGItOTQ1MS00M2NjLTllZjAtNTI3YjZjOGJlOWE3Kn5obWFjPTMxMjMzZjYxM2FmNzA4OGUxOTAxYWJiN2QyNThhY2YyZDBiNWFmMjdmYWIxODFjY2YyZWFmODM5NGMzMmYxNWU=&vendor=cloudinary',
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/aef0b49b-9a5b-43a5-8325-51937e8e5db9?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTQzMTU0Mn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWVmMGI0OWItOWE1Yi00M2E1LTgzMjUtNTE5MzdlOGU1ZGI5Kn5obWFjPTBiYmQ3ZWNmODg0ZDQzYzU0YmVjZTk3YTJmYWQ1YWI1YjM5NzAwYWIyZGIwMTI4NDliNTdlNDA4NDdkOGMxNjE=&vendor=cloudinary',
     name: 'Vitalii Yovko',
     zone: Zone.Operations,
     gender: 'Male',
