@@ -22,6 +22,7 @@ export const DataCell: React.FC<DataCellProps> = ({
   delay = 0,
 }) => {
   const bgColor = isMatch ? 'bg-green-600' : 'bg-red-600';
+  const borderColor = isMatch ? 'border-green-400' : 'border-red-400';
 
   const renderComparisonIndicator = () => {
     if (!comparison) return null;
@@ -32,7 +33,7 @@ export const DataCell: React.FC<DataCellProps> = ({
   if (type === 'avatar') {
     return (
       <div className="w-[100px] h-[100px] flex items-center justify-center">
-        <Avatar alt="employee avatar" className="flex-shrink-0" size="lg" src={String(value)} />
+        <img src={String(value)} alt="employee avatar" className="rounded" />
       </div>
     );
   }
@@ -60,18 +61,18 @@ export const DataCell: React.FC<DataCellProps> = ({
             transform: 'rotateX(180deg)',
           }}
         >
-          <div className="w-4 h-4 rounded-full bg-gray-500 animate-pulse" />
+          <div className="text-gray-500 animate-pulse text-4xl">?</div>
         </div>
 
         {/* Front face */}
         <div
-          className={`absolute w-full h-full flex items-center justify-center rounded ${bgColor}`}
+          className={`absolute w-full h-full flex items-center justify-center rounded border-1 ${borderColor} ${bgColor}`}
           style={{
             backfaceVisibility: 'hidden',
           }}
         >
           <div className="flex items-center gap-1">
-            <span>{value}</span>
+            <span className="font-medium text-lg text-center">{value}</span>
             {type === 'number' && !isMatch && (
               <span className="text-white text-sm">{renderComparisonIndicator()}</span>
             )}
