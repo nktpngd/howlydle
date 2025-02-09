@@ -38,7 +38,7 @@ export const InfoCard = () => {
 
           <p className="text-base/6 text-neutral-200">Type any employee to begin.</p>
 
-          <p className="text-sm text-neutral-400">The data is up until the end of January 2025.</p>
+          <p className="text-sm text-neutral-400">The data is up until the end of February 2025.</p>
         </div>
       </div>
     </Tilt>

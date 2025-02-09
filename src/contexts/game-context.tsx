@@ -8,15 +8,15 @@ interface GameContextType {
   secretEmployee: Employee;
   guessedEmployees: Employee[];
   addGuess: (employee: Employee) => void;
-  isGameWon: boolean; // Add this
-  numberOfTries: number; // Add this
+  isGameWon: boolean;
+  numberOfTries: number;
 }
 
 const GameContext = createContext<GameContextType | undefined>(undefined);
 
 export function GameProvider({ children }: { children: React.ReactNode }) {
   const [guessedEmployees, setGuessedEmployees] = useState<Employee[]>([]);
-  const [isGameWon, setIsGameWon] = useState(false); // Add this
+  const [isGameWon, setIsGameWon] = useState(false);
   const [secretEmployee] = useState<Employee>(() => {
     const randomIndex = Math.floor(Math.random() * employees.length);
     return employees[randomIndex];
