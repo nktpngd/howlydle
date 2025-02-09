@@ -1,6 +1,6 @@
 import { InfoCard } from '@/components/info-card';
 import { Logo } from '@/components/logo';
-import { BeamsWrapper } from '@/components/beams-wrapper';
+import { Wrapper } from '@/components/wrapper';
 import { EmployeesAutocomplete } from '@/components/autocomplete';
 import { PeopleFoundOut } from '@/components/people-found-out';
 import { YesterdaysEmployee } from '@/components/yesterdays-employee';
@@ -9,7 +9,7 @@ import { WinningCard } from '@/components/winning-card';
 
 export default function Home() {
   return (
-    <BeamsWrapper>
+    <Wrapper>
       <Logo />
       <InfoCard />
       <WinningCard />
@@ -17,6 +17,6 @@ export default function Home() {
       <GuessTable />
       <PeopleFoundOut />
       <YesterdaysEmployee />
-    </BeamsWrapper>
+    </Wrapper>
   );
 }

@@ -32,7 +32,7 @@ export const WinningCard = () => {
       const scrollToTop = () => {
         const start = window.pageYOffset;
         const startTime = performance.now();
-        const duration = 1000; // 1 second duration
+        const duration = 500;
 
         const easeOutCubic = (t: number) => 1 - Math.pow(1 - t, 3);
 
@@ -105,8 +105,8 @@ export const WinningCard = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{
-                    duration: 0.4,
-                    delay: 0.4,
+                    duration: 0.3,
+                    delay: 0.3,
                   }}
                   className="flex flex-col gap-4 relative h-full w-full rounded-xl bg-white dark:bg-black p-4 md:p-8 text-center"
                 >
@@ -127,7 +127,7 @@ export const WinningCard = () => {
                   <motion.h2
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.6 }}
+                    transition={{ delay: 0.5 }}
                     className="md:text-xl lg:text-3xl font-semibold text-neutral-800 dark:text-neutral-200"
                   >
                     Congratulations!
@@ -136,7 +136,7 @@ export const WinningCard = () => {
                   <motion.p
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.7 }}
+                    transition={{ delay: 0.6 }}
                     className="text-base/6 text-neutral-700 dark:text-neutral-200"
                   >
                     You found today&#39;s employee:{' '}
@@ -148,7 +148,7 @@ export const WinningCard = () => {
                   <motion.p
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.8 }}
+                    transition={{ delay: 0.7 }}
                     className="text-sm text-neutral-600 dark:text-neutral-400"
                   >
                     You got it in{' '}

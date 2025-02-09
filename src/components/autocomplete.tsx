@@ -9,7 +9,7 @@ import { Employee } from '@/types/types';
 import { useGame } from '@/contexts/game-context';
 
 export const EmployeesAutocomplete = () => {
-  const { guessedEmployees, addGuess, showWinningCard } = useGame();
+  const { guessedEmployees, addGuess, showWinningCard, isGameWon } = useGame();
   const autocompleteRef = useRef<HTMLInputElement>(null);
   const [availableEmployees, setAvailableEmployees] = useState<Employee[]>(
     [...employees].sort((a, b) => a.name.localeCompare(b.name))
@@ -39,6 +39,7 @@ export const EmployeesAutocomplete = () => {
 
   return (
     <Autocomplete
+      disabled={isGameWon}
       ref={autocompleteRef}
       isVirtualized={false}
       aria-label="Select an employee"

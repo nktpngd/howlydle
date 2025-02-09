@@ -36,13 +36,8 @@ export interface Employee {
   affiliation: Affiliation;
   startYear: number;
 }
-export type ComparisonType = 'higher' | 'lower';
 
-export interface CellComparison {
-  value: string | number;
-  isMatch: boolean;
-  comparison?: ComparisonType;
-}
+export type ComparisonType = 'higher' | 'lower';
 
 export interface CellData {
   type: 'avatar' | 'text' | 'number';

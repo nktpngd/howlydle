@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from 'react';
 import { Spotlight } from '@/components/ui/spotlight-new';
 
-export const BeamsWrapper: FC<PropsWithChildren> = ({ children }) => {
+export const Wrapper: FC<PropsWithChildren> = ({ children }) => {
   return (
     <div className="min-h-screen h-full w-full relative flex flex-col items-center py-4 antialiased  overflow-hidden">
       <Spotlight />
