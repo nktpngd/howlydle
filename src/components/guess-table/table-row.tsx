@@ -1,8 +1,9 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { DataCell } from './data-cell';
 import { Employee, CellData } from '@/types/types';
 import { compareEmployees } from '@/lib/utils';
+import { useGame } from '@/contexts/game-context';
 
 interface Props {
   employee: Employee;
@@ -11,6 +12,7 @@ interface Props {
 }
 
 export const TableRow: FC<Props> = ({ employee, secretEmployee, index }) => {
+  const { isGameWon, setShowWinningCard } = useGame();
   const comparison = compareEmployees(employee, secretEmployee);
   const isNewRow = index === 0;
 
@@ -48,6 +50,19 @@ export const TableRow: FC<Props> = ({ employee, secretEmployee, index }) => {
       comparison: comparison.startYear.comparison,
     },
   ];
+
+  useEffect(() => {
+    if (isGameWon && isNewRow) {
+      const totalDelay = (cellData.length - 1) * 0.5 + 0.6; // Last cell delay + animation duration
+
+      const timer = setTimeout(() => {
+        setShowWinningCard(true);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, totalDelay * 1000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [cellData.length, isGameWon, isNewRow, setShowWinningCard]);
 
   return (
     <motion.div

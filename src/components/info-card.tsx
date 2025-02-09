@@ -5,9 +5,9 @@ import { Tilt } from '@/components/ui/tilt';
 import { useGame } from '@/contexts/game-context';
 
 export const InfoCard = () => {
-  const { isGameWon } = useGame();
+  const { showWinningCard } = useGame();
 
-  if (isGameWon) {
+  if (showWinningCard) {
     return null;
   }
 

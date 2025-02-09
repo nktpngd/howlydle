@@ -10,6 +10,8 @@ interface GameContextType {
   addGuess: (employee: Employee) => void;
   isGameWon: boolean;
   numberOfTries: number;
+  showWinningCard: boolean;
+  setShowWinningCard: (show: boolean) => void;
 }
 
 const GameContext = createContext<GameContextType | undefined>(undefined);
@@ -17,6 +19,7 @@ const GameContext = createContext<GameContextType | undefined>(undefined);
 export function GameProvider({ children }: { children: React.ReactNode }) {
   const [guessedEmployees, setGuessedEmployees] = useState<Employee[]>([]);
   const [isGameWon, setIsGameWon] = useState(false);
+  const [showWinningCard, setShowWinningCard] = useState(false);
   const [secretEmployee] = useState<Employee>(() => {
     const randomIndex = Math.floor(Math.random() * employees.length);
     return employees[randomIndex];
@@ -24,7 +27,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   const addGuess = (employee: Employee) => {
     setGuessedEmployees((prev) => [employee, ...prev]);
-    // Check if the guessed employee matches the secret employee
+
     if (employee.id === secretEmployee.id) {
       setIsGameWon(true);
     }
@@ -37,6 +40,8 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         guessedEmployees,
         addGuess,
         isGameWon,
+        showWinningCard,
+        setShowWinningCard,
         numberOfTries: guessedEmployees.length,
       }}
     >
