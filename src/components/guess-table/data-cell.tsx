@@ -29,19 +29,22 @@ export const DataCell: React.FC<DataCellProps> = ({
     return comparison === 'higher' ? '↑' : '↓';
   };
 
-  // If it's an avatar, render it without animation wrapper
   if (type === 'avatar') {
     return (
-      <div className="w-[100px] h-[100px] flex items-center justify-center">
-        <img src={String(value)} alt="employee avatar" className="rounded" />
+      <div className="w-full aspect-square flex items-center justify-center">
+        <img
+          src={String(value)}
+          alt="employee avatar"
+          className="rounded w-full h-full object-cover"
+        />
       </div>
     );
   }
 
   return (
-    <div className="relative" style={{ perspective: '1000px' }}>
+    <div className="relative w-full aspect-square" style={{ perspective: '1000px' }}>
       <motion.div
-        className="w-[100px] h-[100px]"
+        className="w-full h-full"
         initial={animate ? { rotateX: -180 } : false}
         animate={animate ? { rotateX: 0 } : false}
         transition={{
@@ -55,13 +58,13 @@ export const DataCell: React.FC<DataCellProps> = ({
       >
         {/* Back face */}
         <div
-          className={`absolute w-full h-full flex items-center justify-center rounded bg-gray-700`}
+          className="absolute w-full h-full flex items-center justify-center rounded bg-gray-700"
           style={{
             backfaceVisibility: 'hidden',
             transform: 'rotateX(180deg)',
           }}
         >
-          <div className="text-gray-500 animate-pulse text-4xl">?</div>
+          <div className="text-gray-500 animate-pulse text-2xl sm:text-4xl">?</div>
         </div>
 
         {/* Front face */}
@@ -72,9 +75,9 @@ export const DataCell: React.FC<DataCellProps> = ({
           }}
         >
           <div className="flex items-center gap-1">
-            <span className="font-medium text-lg text-center">{value}</span>
+            <span className="font-medium text-xs sm:text-lg text-center">{value}</span>
             {type === 'number' && !isMatch && (
-              <span className="text-white text-sm">{renderComparisonIndicator()}</span>
+              <span className="text-white text-xs sm:text-sm">{renderComparisonIndicator()}</span>
             )}
           </div>
         </div>

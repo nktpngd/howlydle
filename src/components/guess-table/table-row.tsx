@@ -51,7 +51,7 @@ export const TableRow: FC<Props> = ({ employee, secretEmployee, index }) => {
 
   return (
     <motion.div
-      className="grid grid-cols-6 w-full max-w-[720px] gap-2 p-2"
+      className="grid grid-cols-6 w-full gap-1 sm:gap-2 p-1 sm:p-2"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -64,7 +64,7 @@ export const TableRow: FC<Props> = ({ employee, secretEmployee, index }) => {
           isMatch={cell.isMatch}
           comparison={cell.comparison}
           animate={isNewRow}
-          delay={(cellIndex - 1) * 0.5} // Subtract 1 to account for avatar being first
+          delay={(cellIndex - 1) * 0.5}
         />
       ))}
     </motion.div>

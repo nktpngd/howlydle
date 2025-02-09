@@ -9,7 +9,7 @@ interface Props {
 
 export const TableRows: FC<Props> = ({ employees, secretEmployee }) => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-1 sm:gap-2">
       {employees.map((employee, index) => (
         <TableRow
           key={employee.id}
