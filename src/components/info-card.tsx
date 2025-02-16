@@ -23,7 +23,7 @@ export const InfoCard = () => {
         damping: 4.1,
         mass: 0.2,
       }}
-      className="group relative rounded-lg max-w-[520px]"
+      className="group relative rounded-lg sm:max-w-[520px] w-full"
     >
       <div className="relative overflow-hidden rounded-xl bg-zinc-300/30 p-[1px] dark:bg-zinc-700/30">
         <Spotlight
@@ -32,7 +32,7 @@ export const InfoCard = () => {
         />
 
         <div className="flex flex-col gap-4 relative h-full w-full rounded-xl bg-white dark:bg-black p-4 md:p-8 text-center">
-          <h2 className="md:text-xl lg:text-3xl font-semibold text-neutral-200">
+          <h2 className="md:text-2xl lg:text-3xl font-semibold text-neutral-200">
             Guess today&#39;s employee from Howly!
           </h2>
 

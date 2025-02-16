@@ -42,7 +42,7 @@ export const employees: Employee[] = [
     zone: Zone.Growth,
     gender: 'Male',
     affiliation: Affiliation.PDFAid,
-    age: '30+',
+    age: '25-30',
     startYear: 2022,
   },
   {
@@ -295,7 +295,7 @@ export const employees: Employee[] = [
     zone: Zone.Frontend,
     gender: 'Male',
     affiliation: Affiliation.PDFAid,
-    age: '25-30',
+    age: '30+',
     startYear: 2024,
   },
   {
@@ -328,7 +328,7 @@ export const employees: Employee[] = [
     zone: Zone.Operations,
     gender: 'Male',
     affiliation: Affiliation.Tech,
-    age: '25-30',
+    age: '30+',
     startYear: 2022,
   },
   {
@@ -361,7 +361,7 @@ export const employees: Employee[] = [
     zone: Zone.Marketing,
     gender: 'Male',
     affiliation: Affiliation.PDFAid,
-    age: '25-30',
+    age: '20-25',
     startYear: 2023,
   },
   {
@@ -383,13 +383,12 @@ export const employees: Employee[] = [
     zone: Zone.Operations,
     gender: 'Female',
     affiliation: Affiliation.Tech,
-    age: '25-30',
+    age: '20-25',
     startYear: 2024,
   },
   {
     id: '36',
-    avatar:
-      'https://media-process.hibob.com/image/upload/b_rgb:F1A168/co_white,l_text:Arial_50_bold:DS,g_center/hibob/default-avatar/transparent_avatar.png?token=X19jbGRfdG9rZW5fXz1leHA9NDgzNDYyODAxNH5hY2w9KiUyZmhpYm9iJTJmZGVmYXVsdC1hdmF0YXIlMmZ0cmFuc3BhcmVudF9hdmF0YXIucG5nKn5obWFjPThlYWExNDdjOWEzNWQwZjg3ZmQ1YmJkZTRiYTA4ZjE1YzExZjYzNWQxMmVkNzRmZGE1NmIwZDU5MDg4YTJmOGE=&vendor=cloudinary/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/undefined',
+    avatar: 'https://ca.slack-edge.com/T5K6NTVTM-U02S0CWJE03-e5633e252d6f-512',
     name: 'Dmytro Syvyi',
     zone: Zone.Operations,
     gender: 'Male',
@@ -427,7 +426,7 @@ export const employees: Employee[] = [
     zone: Zone.Marketing,
     gender: 'Female',
     affiliation: Affiliation.Tech,
-    age: '25-30',
+    age: '30+',
     startYear: 2024,
   },
   {
@@ -438,7 +437,7 @@ export const employees: Employee[] = [
     zone: Zone.Marketing,
     gender: 'Male',
     affiliation: Affiliation.BetterCV,
-    age: '25-30',
+    age: '20-25',
     startYear: 2024,
   },
   {
@@ -449,7 +448,7 @@ export const employees: Employee[] = [
     zone: Zone.Marketing,
     gender: 'Male',
     affiliation: Affiliation.LegalAnswers,
-    age: '25-30',
+    age: '20-25',
     startYear: 2024,
   },
   {
@@ -482,7 +481,7 @@ export const employees: Employee[] = [
     zone: Zone.Marketing,
     gender: 'Female',
     affiliation: Affiliation.LegalForms,
-    age: '25-30',
+    age: '30+',
     startYear: 2024,
   },
   {
@@ -559,7 +558,7 @@ export const employees: Employee[] = [
     zone: Zone.Product,
     gender: 'Male',
     affiliation: Affiliation.LegalAnswers,
-    age: '25-30',
+    age: '20-25',
     startYear: 2025,
   },
   {
@@ -581,7 +580,7 @@ export const employees: Employee[] = [
     zone: Zone.Backend,
     gender: 'Male',
     affiliation: Affiliation.Tech,
-    age: '25-30',
+    age: '30+',
     startYear: 2024,
   },
   {
@@ -737,5 +736,16 @@ export const employees: Employee[] = [
     affiliation: Affiliation.Shared,
     age: '25-30',
     startYear: 2022,
+  },
+  {
+    id: '68',
+    avatar:
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/8f2a80d4-e803-46ae-a076-ff4515a52f0c?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NTc4OTg5OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOGYyYTgwZDQtZTgwMy00NmFlLWEwNzYtZmY0NTE1YTUyZjBjKn5obWFjPTg5ODYxMzA2YzQ0MGY0NzM5MmNhYTAxNDI1OTg4ODc0MzA3OGE4MmJmZmQwNWEzYTBkZGJiNWY1ZGFjYjUxNDU=&vendor=cloudinary',
+    name: 'Anastasiia Mostovenko',
+    zone: Zone.Product,
+    gender: 'Female',
+    affiliation: Affiliation.PDFAid,
+    age: '20-25',
+    startYear: 2024,
   },
 ];

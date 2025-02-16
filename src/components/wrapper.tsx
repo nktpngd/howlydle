@@ -1,13 +1,28 @@
 import { FC, PropsWithChildren } from 'react';
-import { Spotlight } from '@/components/ui/spotlight-new';
+import bgImage from '@/app/images/bg.jpg';
 
 export const Wrapper: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div className="min-h-screen h-full w-full relative flex flex-col items-center py-4 antialiased  overflow-hidden">
-      <Spotlight />
-      <div className="absolute inset-0 bg-neutral-950 overflow-hidden">
+    <div className="min-h-screen h-full w-full relative flex flex-col items-center py-4 antialiased overflow-hidden">
+      <div className="fixed inset-0 w-full h-full">
         <div
-          className="absolute top-0 left-0 right-0 h-full opacity-30"
+          className="absolute inset-0 w-[100vw] h-[100vh]"
+          style={{
+            backgroundImage: `url(${bgImage.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            transform: 'translate3d(0, 0, 0)',
+            backfaceVisibility: 'hidden',
+            perspective: '1000',
+            willChange: 'transform',
+          }}
+        />
+
+        <div className="absolute inset-0 bg-black/85" />
+
+        <div
+          className="absolute inset-0 opacity-30"
           style={{
             background: `
               radial-gradient(circle at 15% 50%, rgb(13, 17, 23) 0%, transparent 50%),
