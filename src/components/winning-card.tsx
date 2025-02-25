@@ -6,6 +6,7 @@ import { Tilt } from '@/components/ui/tilt';
 import { Spotlight } from '@/components/ui/spotlight';
 import dynamic from 'next/dynamic';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useResetTimer } from '@/hooks/use-reset-timer';
 
 const Confetti = dynamic(() => import('react-confetti'), {
   ssr: false,
@@ -17,6 +18,9 @@ export const WinningCard = () => {
     width: 0,
     height: 0,
   });
+
+  // Use our custom hook
+  const timeUntilReset = useResetTimer();
 
   useEffect(() => {
     // Set window size for confetti
@@ -57,8 +61,13 @@ export const WinningCard = () => {
     updateWindowSize();
     window.addEventListener('resize', updateWindowSize);
 
-    return () => window.removeEventListener('resize', updateWindowSize);
+    return () => {
+      window.removeEventListener('resize', updateWindowSize);
+    };
   }, [showWinningCard]);
+
+  // Format time with leading zeros
+  const formatTime = (value: number) => value.toString().padStart(2, '0');
 
   return (
     <AnimatePresence>
@@ -93,7 +102,7 @@ export const WinningCard = () => {
                 damping: 4.1,
                 mass: 0.2,
               }}
-              className="group relative rounded-lg  max-w-[520px] w-full mx-auto mt-6"
+              className="group relative rounded-lg max-w-[520px] w-full mx-auto mt-6"
             >
               <div className="relative overflow-hidden rounded-xl bg-zinc-300/30 p-[1px] dark:bg-zinc-700/30">
                 <Spotlight
@@ -156,6 +165,36 @@ export const WinningCard = () => {
                       {numberOfTries} {numberOfTries === 1 ? 'try' : 'tries'}
                     </span>
                   </motion.p>
+
+                  <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.8 }}
+                    className="border-neutral-200 dark:border-neutral-800"
+                  >
+                    <p className="text-xl font-medium text-neutral-600 dark:text-neutral-400 mb-2">
+                      Next employee in:
+                    </p>
+                    <div className="flex justify-center items-center gap-1 text-neutral-800 dark:text-neutral-200">
+                      <div className="flex flex-col items-center">
+                        <span className="text-lg font-mono font-semibold">
+                          {formatTime(timeUntilReset.hours)}
+                        </span>
+                      </div>
+                      <span className="text-lg font-mono">:</span>
+                      <div className="flex flex-col items-center">
+                        <span className="text-lg font-mono font-semibold">
+                          {formatTime(timeUntilReset.minutes)}
+                        </span>
+                      </div>
+                      <span className="text-lg font-mono">:</span>
+                      <div className="flex flex-col items-center">
+                        <span className="text-lg font-mono font-semibold">
+                          {formatTime(timeUntilReset.seconds)}
+                        </span>
+                      </div>
+                    </div>
+                  </motion.div>
                 </motion.div>
               </div>
             </Tilt>

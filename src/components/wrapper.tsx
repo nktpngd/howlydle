@@ -19,7 +19,7 @@ export const Wrapper: FC<PropsWithChildren> = ({ children }) => {
           }}
         />
 
-        <div className="absolute inset-0 bg-black/85" />
+        <div className="absolute inset-0 bg-black/70" />
 
         <div
           className="absolute inset-0 opacity-30"
