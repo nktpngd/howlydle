@@ -92,7 +92,7 @@ export const employees: Employee[] = [
   {
     id: '9',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/e495f1e3-0ab7-4b34-953d-6d76923f62c2?token=X19jbGRfdG9rZW5fXz1leHA9MTc0MTU2OTE0MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZTQ5NWYxZTMtMGFiNy00YjM0LTk1M2QtNmQ3NjkyM2Y2MmMyKn5obWFjPWMwN2MwMzNhYzA2NjY5ZWUwNTk1Y2I2MTI2N2E3YjhiYjYxYmM4YzFmNDkzZmE4ZjU0YWJkMTM4Yjk1ZDVlOGQ=&vendor=cloudinary',
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/e495f1e3-0ab7-4b34-953d-6d76923f62c2?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NjUxNjM0M35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZTQ5NWYxZTMtMGFiNy00YjM0LTk1M2QtNmQ3NjkyM2Y2MmMyKn5obWFjPTZhYmY5ZTRlNTVkMGI1NDkzMmM2NGRhNTJmNjllNGRjZjM5MDEyNTA0NWYxMTNiN2U3ZDc4NWYzZGM3ZGI0NDY=&vendor=cloudinary',
     name: 'Volodymyr Dontsov',
     zone: Zone.CLevel,
     gender: 'Male',
@@ -421,13 +421,13 @@ export const employees: Employee[] = [
   {
     id: '39',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/9b9ca0e0-5805-4031-983b-c6d4a055952d?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NzUzMDc4Nn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOWI5Y2EwZTAtNTgwNS00MDMxLTk4M2ItYzZkNGEwNTU5NTJkKn5obWFjPTMwZTQzNDE1YTJlMWFlZjM4YWQ0MzVmNDQ3N2U4ZjQxZjM0ZDNiNzk3ODYzMjVlYWY0NDcxZTg5ZjU2MjUxMWQ=&vendor=cloudinary',
-    name: 'Anna Khodakivska',
-    zone: Zone.Marketing,
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a206cec8-0131-4dd0-a9ea-f4ebdef690a8?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTYxMjg2OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTIwNmNlYzgtMDEzMS00ZGQwLWE5ZWEtZjRlYmRlZjY5MGE4Kn5obWFjPWI3ZGNkYTUyZGVjMjdlMTdkNTBmYWRiNjdjNmI0NTYyMWI4NzRiY2Q0OTgyNmRhODM5OWUzYjgxN2M5OGNjMTU=&vendor=cloudinary',
+    name: 'Anastasiia Lofytska',
+    zone: Zone.DesignAndContent,
     gender: 'Female',
-    affiliation: Affiliation.Tech,
-    age: '30+',
-    startYear: 2024,
+    affiliation: Affiliation.Shared,
+    age: '20-25',
+    startYear: 2025,
   },
   {
     id: '40',
@@ -476,7 +476,7 @@ export const employees: Employee[] = [
   {
     id: '44',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/fec74402-c208-4cab-836b-028b58ad2d8b?token=X19jbGRfdG9rZW5fXz1leHA9MTc0MTkzODU4Nn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZmVjNzQ0MDItYzIwOC00Y2FiLTgzNmItMDI4YjU4YWQyZDhiKn5obWFjPWU4Y2IyMzIxZWM2MDgxYjk5ZjNhYzgyOGU3Y2M5OTA5MGUzMmJkZjAxOGM2YTZjODIxYmU4MzcwZDExY2IyYTI=&vendor=cloudinary',
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/fec74402-c208-4cab-836b-028b58ad2d8b?token=X19jbGRfdG9rZW5fXz1leHA9MTc1Njk0ODMyMn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZmVjNzQ0MDItYzIwOC00Y2FiLTgzNmItMDI4YjU4YWQyZDhiKn5obWFjPTgzZGIwMmQ1OWVhOTc5MGU1YzYwNTg3NjU2Yzk5ZTA0MTRkYjFlMWE5NmVlMzAwNGQ0ODNiNjIxYjU3ODUyNWQ=&vendor=cloudinary',
     name: 'Iryna Korinchak',
     zone: Zone.Marketing,
     gender: 'Female',
@@ -531,7 +531,7 @@ export const employees: Employee[] = [
   {
     id: '49',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/98e40ba2-1966-4f00-949d-86ba7e76b4be?token=X19jbGRfdG9rZW5fXz1leHA9MTc0MDM1OTUyOH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOThlNDBiYTItMTk2Ni00ZjAwLTk0OWQtODZiYTdlNzZiNGJlKn5obWFjPWRlNmJkMDE4MzA0NGZiNDIwYWI5MGE4ZmMzODI1M2M2NGIxYjEzNzFjNjk1MWRjYmRlNGNmYTc0NGIyNDRlZDY=&vendor=cloudinary',
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/98e40ba2-1966-4f00-949d-86ba7e76b4be?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTMwNjc0MX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOThlNDBiYTItMTk2Ni00ZjAwLTk0OWQtODZiYTdlNzZiNGJlKn5obWFjPTA1OGFkYTc0ODg2YjlmZGIyNzU1ZWViZTczMzNkMjZmYWMxZWM1NDQ2MjQyMjk1NjI3ZmU3NmYxNDA0NDNkNWU=&vendor=cloudinary',
     name: 'Yuliia Hordiienko',
     zone: Zone.Product,
     gender: 'Female',
@@ -718,13 +718,13 @@ export const employees: Employee[] = [
   {
     id: '66',
     avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/acb143b1-ab05-40a5-ba5b-69fd5a99bde2?token=X19jbGRfdG9rZW5fXz1leHA9MTc0MDQ4ODgyNX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWNiMTQzYjEtYWIwNS00MGE1LWJhNWItNjlmZDVhOTliZGUyKn5obWFjPWM0ZWFiYmM4NzRjNjhjMjFhNGY5MDMzOTU3MjZhMDIxYzg5MGExZTk2OTI4YzAxYjY0Mzk3NjUzNDUwMGE0OGQ=&vendor=cloudinary',
-    name: 'Yakiv Yusypenko',
-    zone: Zone.Analytics,
-    gender: 'Male',
-    affiliation: Affiliation.Shared,
-    age: '25-30',
-    startYear: 2024,
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a382d7d8-6bc7-4fd6-9787-497df2710544?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTIwMzY4MX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTM4MmQ3ZDgtNmJjNy00ZmQ2LTk3ODctNDk3ZGYyNzEwNTQ0Kn5obWFjPTNjZjg3MjU1NDI0Zjg2MzA4ZmVmY2E1YjBkYjVlYzlhYzc2ZGMyNTNiYjUxOWE4N2Y1OWFjY2YxZWQ2MTRiYWI=&vendor=cloudinary',
+    name: 'Yuliia Holovatska',
+    zone: Zone.DesignAndContent,
+    gender: 'Female',
+    affiliation: Affiliation.BetterCV,
+    age: '20-25',
+    startYear: 2025,
   },
   {
     id: '67',
@@ -747,5 +747,60 @@ export const employees: Employee[] = [
     affiliation: Affiliation.PDFAid,
     age: '20-25',
     startYear: 2024,
+  },
+  {
+    id: '69',
+    avatar:
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ed6f553f-0412-49d1-91c7-f0a1047bf28b?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTE4NTQ4MX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZWQ2ZjU1M2YtMDQxMi00OWQxLTkxYzctZjBhMTA0N2JmMjhiKn5obWFjPTlmMTFhMGQxYmVjNmUwYTNlZmE3Nzc0MzAwYzAyMjMwNzkxNWM3Yzg4YTM0OGVkNDBjNjUzMzY4NTkxNDljZWI=&vendor=cloudinary',
+    name: 'Valeriia Volkova',
+    zone: Zone.DesignAndContent,
+    gender: 'Female',
+    affiliation: Affiliation.Tech,
+    age: '20-25',
+    startYear: 2025,
+  },
+  {
+    id: '70',
+    avatar:
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/cbec8e30-9d99-4a50-a6a4-162582768f69?token=X19jbGRfdG9rZW5fXz1leHA9MTc1Njg1MjIwMX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmY2JlYzhlMzAtOWQ5OS00YTUwLWE2YTQtMTYyNTgyNzY4ZjY5Kn5obWFjPTY5YzVjY2FiMmUwM2Y5YjhhZDQyNTIxNTI2NWUzZjZkY2I3YzZjNjkzZmFmMWFhMWMyYjExN2JhM2RiNjllYmU=&vendor=cloudinary',
+    name: 'Volodymyr Bozhko',
+    zone: Zone.HR,
+    gender: 'Male',
+    affiliation: Affiliation.Shared,
+    age: '25-30',
+    startYear: 2025,
+  },
+  {
+    id: '71',
+    avatar:
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/0c2d291c-6883-465d-9cd1-add673593992?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDkwNTg5MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMGMyZDI5MWMtNjg4My00NjVkLTljZDEtYWRkNjczNTkzOTkyKn5obWFjPTFiMGVlMzNhYmQ1ODQzMTZlNDlmMmU2ZmFhNjZlNGIxMzg3MjljNGFlOGJmY2RmNmNkMWI5ZDkyZjRlYzZhNzA=&vendor=cloudinary',
+    name: 'Mykhailo Shylo',
+    zone: Zone.Frontend,
+    gender: 'Male',
+    affiliation: Affiliation.PDFAid,
+    age: '20-25',
+    startYear: 2025,
+  },
+  {
+    id: '72',
+    avatar:
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a7d34a60-100e-43d9-8d3f-26619dba4bc7?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NjIxNTU1NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTdkMzRhNjAtMTAwZS00M2Q5LThkM2YtMjY2MTlkYmE0YmM3Kn5obWFjPTA0YWJmZjdiMzM3N2E5MTQ5NzFkNDFmMjZhMmZhYTdjYzIwNTZkMzFhYjljNGIzNTZiYzc2Y2JlOTdlMDZkOWM=&vendor=cloudinary',
+    name: 'Yuliia Zaiats',
+    zone: Zone.Frontend,
+    gender: 'Female',
+    affiliation: Affiliation.LegalAnswers,
+    age: '25-30',
+    startYear: 2025,
+  },
+  {
+    id: '73',
+    avatar:
+      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/c5271159-aac7-4438-8b18-4c4f74d4028f?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTUyNzg3MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYzUyNzExNTktYWFjNy00NDM4LThiMTgtNGM0Zjc0ZDQwMjhmKn5obWFjPWI1NGU1NDI5N2NhMTA2MWM3NjlhYjFlMWEzYWUxYTEwYjA4NzQ2YjMzYTkyN2EyOWM0YmYzMzI2ZDE0MjI3YmI=&vendor=cloudinary',
+    name: 'Andrii Sviatovets',
+    zone: Zone.Product,
+    gender: 'Male',
+    affiliation: Affiliation.Tech,
+    age: '30+',
+    startYear: 2025,
   },
 ];
