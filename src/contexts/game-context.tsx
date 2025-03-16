@@ -17,8 +17,8 @@ interface GameContextType {
 
 const GameContext = createContext<GameContextType | undefined>(undefined);
 
-// Reset hour constant (15:00 UTC)
-const RESET_HOUR_UTC = 15;
+// Reset hour constant (00:00 UTC)
+const RESET_HOUR_UTC = 0;
 
 // Function to get an employee for a specific date
 const getEmployeeForDate = (date: Date): Employee => {
@@ -37,12 +37,12 @@ const getDailyEmployee = (): Employee => {
   // Get current date in UTC
   const now = new Date();
 
-  // Create date string for today at 15:00 UTC (changed from 16:00)
+  // Create date string for today at 00:00 UTC
   const todayAtResetUTC = new Date(
     Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), RESET_HOUR_UTC, 0, 0)
   );
 
-  // If current time is before 15:00 UTC, use yesterday's seed
+  // If current time is before 00:00 UTC, use yesterday's seed
   const seedDate =
     now < todayAtResetUTC
       ? new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - 1))
@@ -58,8 +58,8 @@ const getYesterdayEmployee = (): Employee => {
     Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), RESET_HOUR_UTC, 0, 0)
   );
 
-  // If we're before 15:00 UTC, "yesterday" is 2 days ago
-  // If we're after 15:00 UTC, "yesterday" is 1 day ago
+  // If we're before 00:00 UTC, "yesterday" is 2 days ago
+  // If we're after 00:00 UTC, "yesterday" is 1 day ago
   const daysToSubtract = now < todayAtResetUTC ? 2 : 1;
 
   const yesterdayDate = new Date(
@@ -115,7 +115,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       const newNow = new Date();
       const newToday = `${newNow.getUTCFullYear()}-${String(newNow.getUTCMonth() + 1).padStart(2, '0')}-${String(newNow.getUTCDate()).padStart(2, '0')}`;
 
-      // If the day changed or it's past 15:00 UTC and we need a new employee
+      // If the day changed or it's past 00:00 UTC and we need a new employee
       if (newToday !== currentDay || secretEmployee?.id !== newEmployee.id) {
         setSecretEmployee(newEmployee);
         setYesterdayEmployee(newYesterdayEmployee);

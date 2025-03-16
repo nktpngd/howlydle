@@ -6,7 +6,7 @@ interface TimeUntilReset {
   seconds: number;
 }
 
-export const useResetTimer = (resetHourUTC = 15): TimeUntilReset => {
+export const useResetTimer = (resetHourUTC = 0): TimeUntilReset => {
   const [timeUntilReset, setTimeUntilReset] = useState<TimeUntilReset>({
     hours: 0,
     minutes: 0,
