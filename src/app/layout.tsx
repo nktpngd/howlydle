@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 import { ThemeProvider } from '@/components/ui/theme-provider';
 import { GameProvider } from '@/contexts/game-context';
-
+import { Analytics } from '@vercel/analytics/react';
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
   variable: '--font-geist-sans',
@@ -30,7 +30,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <GameProvider>{children}</GameProvider>
+          <GameProvider>
+            {children}
+            <Analytics />
+          </GameProvider>
         </ThemeProvider>
       </body>
     </html>
