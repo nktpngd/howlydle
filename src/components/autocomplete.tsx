@@ -3,17 +3,28 @@
 import { Autocomplete, AutocompleteItem } from '@heroui/autocomplete';
 import { Avatar } from '@heroui/avatar';
 import { SearchIcon } from '@/components/ui/search-icon';
-import { employees } from '@/lib/users';
-import { Key, useState, useRef } from 'react';
+import { getEmployees } from '@/lib/employees';
+import { Key, useState, useRef, useEffect } from 'react';
 import { Employee } from '@/types/types';
 import { useGame } from '@/contexts/game-context';
 
 export const EmployeesAutocomplete = () => {
   const { guessedEmployees, addGuess, showWinningCard, isGameWon } = useGame();
   const autocompleteRef = useRef<HTMLInputElement>(null);
-  const [availableEmployees, setAvailableEmployees] = useState<Employee[]>(
-    [...employees].sort((a, b) => a.name.localeCompare(b.name))
-  );
+  const [availableEmployees, setAvailableEmployees] = useState<Employee[]>([]);
+
+  useEffect(() => {
+    const fetchEmployees = async () => {
+      try {
+        const employees = await getEmployees();
+        setAvailableEmployees([...employees].sort((a, b) => a.name.localeCompare(b.name)));
+      } catch (error) {
+        console.error('Error fetching employees:', error);
+      }
+    };
+
+    fetchEmployees();
+  }, []);
 
   // Filter out already guessed employees from the available options
   const filteredEmployees = availableEmployees.filter(

@@ -36,3 +36,9 @@ yarn-error.log*
 next-env.d.ts
 
 .idea
+
+# Supabase
+.env
+.env.local
+.env*.local
+supabase
