@@ -3,8 +3,7 @@ import { Affiliation, Employee, Zone } from '@/types/types';
 export const employees: Employee[] = [
   {
     id: '1',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/1c72f1b3-583e-4bbb-83f6-87310a1d05c5?token=X19jbGRfdG9rZW5fXz1leHA9MTc0MzEyNDM0MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMWM3MmYxYjMtNTgzZS00YmJiLTgzZjYtODczMTBhMWQwNWM1Kn5obWFjPWVjYzkyNzlmMWY0YTgyYTc4YWQ4NjEwNjgzZTMxODI5M2FkMjEyODI2YzQ3ZDVlNTc1OTgwNjA0MjJlYzZkM2Y=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/1-avatar.jpg',
     name: 'Dmytro Haranzha',
     gender: 'Male',
     zone: Zone.Growth,
@@ -14,8 +13,7 @@ export const employees: Employee[] = [
   },
   {
     id: '2',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/6d38d769-7a47-4ca0-8bfd-0cb461fc57b9?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NDUwNjc5MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNmQzOGQ3NjktN2E0Ny00Y2EwLThiZmQtMGNiNDYxZmM1N2I5Kn5obWFjPTM0YzlmZjlhMjY4ZmIyNWE4YThlZWJiZmI1NjkyMzRhN2M3OTY4MGI5NzQ0OTI5M2E2ZmZlNTExNjExZDMwZTY=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/2-avatar.jpg',
     name: 'Ihor Shramko',
     zone: Zone.CLevel,
     gender: 'Male',
@@ -25,8 +23,7 @@ export const employees: Employee[] = [
   },
   {
     id: '3',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ea7ffab3-31f0-43cb-b471-38cbcf229a45?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDE4MzcwNX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZWE3ZmZhYjMtMzFmMC00M2NiLWI0NzEtMzhjYmNmMjI5YTQ1Kn5obWFjPTRjM2RlMTc4NGYyMGY3NTI1ZGMyMGU2NjMxYWI0MDllZmM1ZTgxNmVlNDQyMjI2NGM4NGQ3ODMxMGE0MDg4Mjc=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/3-avatar.jpg',
     name: 'Viacheslav Matskov',
     zone: Zone.CLevel,
     gender: 'Male',
@@ -36,8 +33,7 @@ export const employees: Employee[] = [
   },
   {
     id: '4',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/8873dfb0-d35a-4f9c-9bca-eb9daf823e37?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NTQ1NzE3NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmODg3M2RmYjAtZDM1YS00ZjljLTliY2EtZWI5ZGFmODIzZTM3Kn5obWFjPTY0ZTIzMTE3ZDk4MzE5NjQ2YjNmYjM0OTBjMzc4NjAwMDE2NTQyNTI2NjRlMzdiYzBlOGE3N2RjMzQ5MTgxNzQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/4-avatar.jpg',
     name: 'Kyrylo Tolokonnikov',
     zone: Zone.Growth,
     gender: 'Male',
@@ -47,8 +43,7 @@ export const employees: Employee[] = [
   },
   {
     id: '5',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a762a5a1-089c-4f2d-bd3f-fd02990370bd?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NDg1MjMyNH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTc2MmE1YTEtMDg5Yy00ZjJkLWJkM2YtZmQwMjk5MDM3MGJkKn5obWFjPWI1OGNkZGM3ZDJlZmRiNzIxNGMwMWJjN2MxN2YxMGE5YWIwMjM0NWU5NjNhOGMzNDMxZDUzMzg5YjliYmY4MGY=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/5-avatar.jpg',
     name: 'Maksym Shatokhin',
     zone: Zone.Growth,
     gender: 'Male',
@@ -58,8 +53,7 @@ export const employees: Employee[] = [
   },
   {
     id: '6',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/74667052-148a-4029-ac78-46ed16dba894?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDE4Mzk3OX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNzQ2NjcwNTItMTQ4YS00MDI5LWFjNzgtNDZlZDE2ZGJhODk0Kn5obWFjPTY1ZTYyNzk1MWNiNjkzM2Q4ZTE0NjAzYjc3NTU0YmYzNDA5MzA5YTUyYjVmYjYyYWViMDZkMDIwZGRhNTQwZGQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/6-avatar.jpg',
     name: 'Mykola Bakhov',
     zone: Zone.Growth,
     gender: 'Male',
@@ -69,8 +63,7 @@ export const employees: Employee[] = [
   },
   {
     id: '7',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/85f1d0b5-f942-43d1-bdd2-e2c01b001c43?token=X19jbGRfdG9rZW5fXz1leHA9MTc0MjY5MjQyM35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmODVmMWQwYjUtZjk0Mi00M2QxLWJkZDItZTJjMDFiMDAxYzQzKn5obWFjPTZhYWVlMGUxM2FlZjYzODE4ZTkzNjQxOWQxNzMxMTliZjVlYWY1NDExNjk1NTQwNGU4ODRlODY3NzRkMmMxNjE=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/7-avatar.jpg',
     name: 'Oleksandr Gorbach',
     zone: Zone.Growth,
     gender: 'Male',
@@ -80,8 +73,7 @@ export const employees: Employee[] = [
   },
   {
     id: '8',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/c21ebebf-0ca5-4721-9296-18f670447c23?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTE3MjMyOX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYzIxZWJlYmYtMGNhNS00NzIxLTkyOTYtMThmNjcwNDQ3YzIzKn5obWFjPTNlMzQyYmI5YmJhNDg3M2JiZDVjOTE5NDkyYTYzYWU2MmYwYmZhOWJjMjIxN2IzOTg0MDlmYzgwMzJiMTZjNGU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/8-avatar.jpg',
     name: 'Oleksandra Hospod',
     zone: Zone.HR,
     gender: 'Female',
@@ -91,8 +83,7 @@ export const employees: Employee[] = [
   },
   {
     id: '9',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/e495f1e3-0ab7-4b34-953d-6d76923f62c2?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NjUxNjM0M35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZTQ5NWYxZTMtMGFiNy00YjM0LTk1M2QtNmQ3NjkyM2Y2MmMyKn5obWFjPTZhYmY5ZTRlNTVkMGI1NDkzMmM2NGRhNTJmNjllNGRjZjM5MDEyNTA0NWYxMTNiN2U3ZDc4NWYzZGM3ZGI0NDY=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/9-avatar.jpg',
     name: 'Volodymyr Dontsov',
     zone: Zone.CLevel,
     gender: 'Male',
@@ -102,8 +93,7 @@ export const employees: Employee[] = [
   },
   {
     id: '10',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/7ae361f9-457b-4cdb-9fb4-8832f8a5db35?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTY3ODAwNH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmN2FlMzYxZjktNDU3Yi00Y2RiLTlmYjQtODgzMmY4YTVkYjM1Kn5obWFjPTNjZTc3OGUyNjg0OTRiNzM0ODlkY2YyNjI2OTI4NjNlNzhhMTBmM2YxMjIwMTRhMTE1OTRhMGU5ZTllOWUzZTI=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/10-avatar.jpg',
     name: 'Volodymyr Kupriienko',
     zone: Zone.Backend,
     gender: 'Male',
@@ -113,8 +103,7 @@ export const employees: Employee[] = [
   },
   {
     id: '11',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/aaf4eabc-c1d1-4f1c-9ca6-45cd5b83f115?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTMzMjM2OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWFmNGVhYmMtYzFkMS00ZjFjLTljYTYtNDVjZDViODNmMTE1Kn5obWFjPThjMTBkNWExMzQ2MDhkYjUxMDAzZTUzYmE2NWY5MzgxODdjMWZjNDI0ZGRhNGMzMjI3MjMyY2FjZGYyMzMyZTQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/11-avatar.jpg',
     name: 'Yevhenii Honcharenko',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -124,8 +113,7 @@ export const employees: Employee[] = [
   },
   {
     id: '12',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/384fafa8-a56f-4fcf-8dac-15e10adefced?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODIyMTk3NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMzg0ZmFmYTgtYTU2Zi00ZmNmLThkYWMtMTVlMTBhZGVmY2VkKn5obWFjPTYzNTllM2VhNzgyZDRmNjYwNjVkZTY4NmJhODljYjcwOTIyY2FlOTc3NzRmYmMyMzU0ZDJkMmU2ZDI0YzkyMTQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/12-avatar.jpg',
     name: 'Patrisiia Hevorkian',
     zone: Zone.HR,
     gender: 'Female',
@@ -135,8 +123,7 @@ export const employees: Employee[] = [
   },
   {
     id: '13',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/0d330447-9034-4474-bcb8-c96dfc102984?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MDY0MTEzMH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMGQzMzA0NDctOTAzNC00NDc0LWJjYjgtYzk2ZGZjMTAyOTg0Kn5obWFjPWFjMjFlZjdmNTlmNGI1OTAxM2I0MmYxZjVhNjY0OWMzMzA4MTk4ZTJiMjQzN2M1MWVkYTNhNDBlOWQ2OWU0ZmY=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/13-avatar.jpg',
     name: 'Alina Matushchak',
     zone: Zone.Frontend,
     gender: 'Female',
@@ -146,8 +133,7 @@ export const employees: Employee[] = [
   },
   {
     id: '14',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/9dfa82d1-5b0a-4b65-b3c1-68e4b6591927?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODEzNTU3OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOWRmYTgyZDEtNWIwYS00YjY1LWIzYzEtNjhlNGI2NTkxOTI3Kn5obWFjPWFjNjVjNGMxYjJiZDEzZDhkMWRkY2UwYmNmMjE0NmYzZDg5YzYxNDQ3NmM2ODE4YzVkNTMzYTBiNzI5MjAwMTc=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/14-avatar.jpg',
     name: 'Anastasiia Tilikina',
     zone: Zone.Frontend,
     gender: 'Female',
@@ -157,8 +143,7 @@ export const employees: Employee[] = [
   },
   {
     id: '15',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ccb2eaf8-4249-48de-b46c-65910b8444e3?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTc3NzEyMn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmY2NiMmVhZjgtNDI0OS00OGRlLWI0NmMtNjU5MTBiODQ0NGUzKn5obWFjPTMyYjc0YzA2NGYxNDg0MmM3OTczMDI1YTJjNDJlNTRhOWZhZjQ1OTcxNDU4NDgwNzYyNjYzZmVhY2ZkNWM4NDA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/15-avatar.jpg',
     name: 'Nataliia Nagirna',
     zone: Zone.HR,
     gender: 'Female',
@@ -168,8 +153,7 @@ export const employees: Employee[] = [
   },
   {
     id: '16',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/1d561edc-afc9-41c2-8dd8-055f721be0dc?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MjMyMDk3NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMWQ1NjFlZGMtYWZjOS00MWMyLThkZDgtMDU1ZjcyMWJlMGRjKn5obWFjPWFmNzJjY2MwNjQwMjlhYWQ3Y2Q0NjI0MjM0YTFkZDI2ZWJlMDdiNGE2ZjAxM2MxMWU2NzRhYmM0MmQ0NzZkY2I=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/16-avatar.jpg',
     name: 'Anton Poroshkin',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -179,8 +163,7 @@ export const employees: Employee[] = [
   },
   {
     id: '17',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/0cf33999-c58a-4bcc-9aeb-cc9025d1d2d1?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODkxMzEzNn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMGNmMzM5OTktYzU4YS00YmNjLTlhZWItY2M5MDI1ZDFkMmQxKn5obWFjPTI2YTQ5OWRlZjczZmUyODQyMTgwZTk0NWVjZDllMjM4NWQ0MmUzNzcwOGY2Yjk0MjlkMzBjMDViMTZkYmI5OWY=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/17-avatar.jpg',
     name: 'Artem Tiutiunyk',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -190,8 +173,7 @@ export const employees: Employee[] = [
   },
   {
     id: '18',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/0a91aa03-c807-4a98-b4eb-fca043ef0826?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTExOTEzM35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMGE5MWFhMDMtYzgwNy00YTk4LWI0ZWItZmNhMDQzZWYwODI2Kn5obWFjPTliYjc4YmEwMzkxODRmMDIxNzc4MjRhMTQxZDQ5ZDUwMGRjZDAwOWRhNjRjYTRlMjVmY2IwZTU5YWRjY2JhZWM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/18-avatar.jpg',
     name: 'Nikita Panahoda',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -201,8 +183,7 @@ export const employees: Employee[] = [
   },
   {
     id: '19',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/8281c184-3a08-43ed-bcd8-541fbd1ac907?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDE4MzcxMX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmODI4MWMxODQtM2EwOC00M2VkLWJjZDgtNTQxZmJkMWFjOTA3Kn5obWFjPWQxNmE3NjY3MTAxYzhkZTUzYzVjNmRlMWFiNTFiYTEzMTljY2IxYjM3YzFhOTJhMTg5OTI1OWZhOTk1YzAwMGI=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/19-avatar.jpg',
     name: 'Dmytro Pelovych',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -212,8 +193,7 @@ export const employees: Employee[] = [
   },
   {
     id: '20',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/4fd82d5c-3d45-4b17-9883-7881579b1aa7?token=X19jbGRfdG9rZW5fXz1leHA9MTc0Njc1MzE5N35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNGZkODJkNWMtM2Q0NS00YjE3LTk4ODMtNzg4MTU3OWIxYWE3Kn5obWFjPWMzN2Q4ZGNmZjVhMWYxMjFlY2JlMTc5ZTJlODYxZGY5YmI0N2JiNTY2YWVkY2U2NzQ0N2RmNWM1YjcxODEwNmU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/20-avatar.jpg',
     name: 'Oleksandr Karakai',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -223,8 +203,7 @@ export const employees: Employee[] = [
   },
   {
     id: '21',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ae6dd28e-800f-4a96-9aa1-ca59546e77f1?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODkxMzEzNn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWU2ZGQyOGUtODAwZi00YTk2LTlhYTEtY2E1OTU0NmU3N2YxKn5obWFjPWE3MTgwMzVhZDkyNjBkMDJkMTczNWIxMzI3MGE1ODQxNTQxOWNhMTU3MDExODYzZjExODdmMzQ0MDNmMjY4ZWM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/21-avatar.jpg',
     name: 'Oleksii Larchenko',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -234,8 +213,7 @@ export const employees: Employee[] = [
   },
   {
     id: '22',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/4559824e-128c-4e3d-9b14-3b5adc2d490d?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MzY2NTE0NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNDU1OTgyNGUtMTI4Yy00ZTNkLTliMTQtM2I1YWRjMmQ0OTBkKn5obWFjPTEyOTQ1MzFhYTE4YWQ1MGRhOTNhOWM5ZTcyYjRiNmVhYjE5N2VmNzZkZmFiMTJmMzNmNDNhNjk5NmJjYzg3NjE=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/22-avatar.jpg',
     name: 'Pavlo Pshenyshnyi',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -245,8 +223,7 @@ export const employees: Employee[] = [
   },
   {
     id: '23',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/7db5168f-8fcf-477b-b85d-69eaf0b7301d?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NDcyMjY2M35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmN2RiNTE2OGYtOGZjZi00NzdiLWI4NWQtNjllYWYwYjczMDFkKn5obWFjPTI0ZWRlMmRmYjNmZWRlYzQ2NjExZThmYWE4NWI0NTE5MGQxZWMxNGY1NWJmNjUxNTVhZGY0NjcwNjYzYzEwMjg=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/23-avatar.jpg',
     name: 'Vadym Akinshyn',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -256,8 +233,7 @@ export const employees: Employee[] = [
   },
   {
     id: '24',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/bb679283-cff7-4309-abdd-a90a1ee60c29?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTc3NzEzOX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYmI2NzkyODMtY2ZmNy00MzA5LWFiZGQtYTkwYTFlZTYwYzI5Kn5obWFjPWMyM2M4Njg0MzdkYTdkMDk4MjdhMzYxMjAyMWQ4MjYzOTYxMjE3MWYxZWNlYzhhMjI2NWQ4ODM4ZmQ5ODI5ZjA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/24-avatar.jpg',
     name: 'Yaroslav Illiashenko',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -267,8 +243,7 @@ export const employees: Employee[] = [
   },
   {
     id: '25',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/814f6dd9-0f8b-4bd3-a8eb-21e972bad188?token=X19jbGRfdG9rZW5fXz1leHA9MTc1Mjc2MDg3NX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmODE0ZjZkZDktMGY4Yi00YmQzLWE4ZWItMjFlOTcyYmFkMTg4Kn5obWFjPTUxMjMzOTViMzRmNjQ4YzM4MjhjMTIyMjdiOTUzOGUwYzZkOWZlYmViYTY2N2QyMWQzN2MwZTM4YjYyYmEzYzM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/25-avatar.jpg',
     name: 'Ihor Petrov',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -278,8 +253,7 @@ export const employees: Employee[] = [
   },
   {
     id: '26',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/abeac5d8-fc17-4eb0-8835-74847ecc3ab3?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NTE1NjIxMX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWJlYWM1ZDgtZmMxNy00ZWIwLTg4MzUtNzQ4NDdlY2MzYWIzKn5obWFjPTM0OTg3MWQ4YTRhYWRiN2IxOGY1YTI4NmU4ZDNiYjE4MmRlNTc3MzVmZDRiNTRiNTMzZDIzMWE0ZWMyNDlhOTA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/26-avatar.jpg',
     name: 'Ihor Honcharenko',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -289,8 +263,7 @@ export const employees: Employee[] = [
   },
   {
     id: '27',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/56ba9487-8347-459b-ab0b-23423961a973?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NjU0NDcyM35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNTZiYTk0ODctODM0Ny00NTliLWFiMGItMjM0MjM5NjFhOTczKn5obWFjPTA4OWIzYWRhZTI4Mzc3MGQyZTNkYjQwMWVjMTlkY2JkOTNmYTMyMTU0NTkyMGM3YWQ1ZGM4NjIwNzgyYzMyMWU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/27-avatar.jpg',
     name: 'Oleksii Budnik',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -300,8 +273,7 @@ export const employees: Employee[] = [
   },
   {
     id: '28',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/2bd7a03a-8701-4f29-a1ab-7b8850766ab1?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODUyMDk0Nn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMmJkN2EwM2EtODcwMS00ZjI5LWExYWItN2I4ODUwNzY2YWIxKn5obWFjPTgwMjdlNzdmYThiYjk2MjRkNDEyYjM2YzI1NWViZjM4MzYwNThhMGI2NTczYWRhMDQyMGQ4NTkwMDhiNjk3NGY=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/28-avatar.jpg',
     name: 'Pavlo Kodii',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -311,8 +283,7 @@ export const employees: Employee[] = [
   },
   {
     id: '29',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/4d10b27f-bd4e-41de-b675-f1f691dc90d7?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MjUxMTk2NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNGQxMGIyN2YtYmQ0ZS00MWRlLWI2NzUtZjFmNjkxZGM5MGQ3Kn5obWFjPTAxNjIyYWM4ZTNjMjZhN2ZmYzA0MjU1Yzc3NGJlNDc2MjRjZDZjNmYxODQwN2M1MmQ1MDM1MzJkNTdkNGQ2Mzg=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/29-avatar.jpg',
     name: 'Viktoriia Yakymenko',
     zone: Zone.Frontend,
     gender: 'Female',
@@ -322,8 +293,7 @@ export const employees: Employee[] = [
   },
   {
     id: '30',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/5c3d2202-1cd5-48e9-a3f1-dcd4c18f4054?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NTk3NTU0NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNWMzZDIyMDItMWNkNS00OGU5LWEzZjEtZGNkNGMxOGY0MDU0Kn5obWFjPTU5YjQ1NTNiYzc3MmQzZDM0NDg1MjFhMDhiNDBiNmEwYzFkOGE0YWU2NGIwOGU5NjNjNzAyYzRiZDhhMjcxNzc=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/30-avatar.jpg',
     name: 'Artem Filatov',
     zone: Zone.Operations,
     gender: 'Male',
@@ -333,8 +303,7 @@ export const employees: Employee[] = [
   },
   {
     id: '31',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/9c1a4c39-3ff0-4c60-9aeb-8b6e6193e761?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDI2OTk2OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOWMxYTRjMzktM2ZmMC00YzYwLTlhZWItOGI2ZTYxOTNlNzYxKn5obWFjPTE0MzZjN2E4MTllOTc1ODgyNzA0YTEyMTkwMjBiMWZmNmEwYWVmZWM2ZjE1YzkzM2IzNjY2ODRlNmJhYzNhZGU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/31-avatar.jpg',
     name: 'Kateryna Antypova',
     zone: Zone.Marketing,
     gender: 'Female',
@@ -344,8 +313,7 @@ export const employees: Employee[] = [
   },
   {
     id: '32',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/cc2640dd-3d90-444e-8168-7151b325392d?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NDE2MTIxOH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmY2MyNjQwZGQtM2Q5MC00NDRlLTgxNjgtNzE1MWIzMjUzOTJkKn5obWFjPThhMzUyOGJkZjRjYTU3MmFkOTgxZDllNTA5MzNkMGFlZWZjZDc2ZTVlMTRlZWExNzYzNzY3OTA5NmFiOWUwYTA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/32-avatar.jpg',
     name: 'Oleksandra Oliinyk',
     zone: Zone.DesignAndContent,
     gender: 'Female',
@@ -355,8 +323,7 @@ export const employees: Employee[] = [
   },
   {
     id: '33',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/d8538993-ecf5-4c0c-82a1-5ea39ab034a1?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTE3MjMyOX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZDg1Mzg5OTMtZWNmNS00YzBjLTgyYTEtNWVhMzlhYjAzNGExKn5obWFjPTYwNzlkN2NiYzE1NzU4OGVmZGRkYWU3MTFiMjQ0YmVmY2U0ZmJmY2E0NGRhZjI1YTQwOTViZGI4YWRlZDE4YjM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/33-avatar.jpg',
     name: 'Rostyslav Rashchupkin',
     zone: Zone.Marketing,
     gender: 'Male',
@@ -366,8 +333,7 @@ export const employees: Employee[] = [
   },
   {
     id: '34',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/afc313ed-bbe7-4480-9c12-e647177a0750?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDE4MzcwOX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWZjMzEzZWQtYmJlNy00NDgwLTljMTItZTY0NzE3N2EwNzUwKn5obWFjPTUwMjk1YmZkZjIzNGFiMWFlNzdiMWE0Yzk0ZjBhNWYzZmY0ZTRkMjNkZDZkMzAzYzc1NzQ2MzkxNWFjMWE5YTk=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/34-avatar.jpg',
     name: 'Yana Koba',
     zone: Zone.DesignAndContent,
     gender: 'Female',
@@ -377,8 +343,7 @@ export const employees: Employee[] = [
   },
   {
     id: '35',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/654da447-3547-4a9f-b5f3-73b6bb5209f3?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NDcxOTU1Mn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNjU0ZGE0NDctMzU0Ny00YTlmLWI1ZjMtNzNiNmJiNTIwOWYzKn5obWFjPThmYjg2NjA5OThmYTFjY2M4OTIzODNkNzE2NzQwNDVjNGZjNDFhOTI1MmU4YjQ0OGYxZjRlMGRhYjU3N2EwMGM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/35-avatar.jpg',
     name: 'Anastasiia Stadnik',
     zone: Zone.Operations,
     gender: 'Female',
@@ -388,7 +353,7 @@ export const employees: Employee[] = [
   },
   {
     id: '36',
-    avatar: 'https://ca.slack-edge.com/T5K6NTVTM-U02S0CWJE03-e5633e252d6f-512',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/36-avatar.jpg',
     name: 'Dmytro Syvyi',
     zone: Zone.Operations,
     gender: 'Male',
@@ -398,8 +363,7 @@ export const employees: Employee[] = [
   },
   {
     id: '37',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/0d87fb73-c77b-417f-a933-993cf4525fd3?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NTExMTYxNH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMGQ4N2ZiNzMtYzc3Yi00MTdmLWE5MzMtOTkzY2Y0NTI1ZmQzKn5obWFjPWM0ODk5OGMxYzJkNmMwOWEyODVhZWZiMGY3MjRhY2VhMzY4NzAwNTQ2OGQyYzEzNjI3ZTQxNDU5MjFiYjI4MDU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/37-avatar.jpg',
     name: 'Nataliia Vyshnevska',
     zone: Zone.Operations,
     gender: 'Female',
@@ -409,8 +373,7 @@ export const employees: Employee[] = [
   },
   {
     id: '38',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/abd5b14f-f1b5-4303-b0da-55b1a98fb95d?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDE4MzcwNH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWJkNWIxNGYtZjFiNS00MzAzLWIwZGEtNTViMWE5OGZiOTVkKn5obWFjPWI4OGNkMDgzNTgxNDJmZDIzYjM0YzViMmMzYzg1NzlhOGZhZjljN2QwNTQ1ZWU0NzhhNWZmZmQ5OTc0M2FkMjU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/38-avatar.jpg',
     name: 'Vladyslav Topchai',
     zone: Zone.Operations,
     gender: 'Male',
@@ -420,8 +383,7 @@ export const employees: Employee[] = [
   },
   {
     id: '39',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a206cec8-0131-4dd0-a9ea-f4ebdef690a8?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTYxMjg2OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTIwNmNlYzgtMDEzMS00ZGQwLWE5ZWEtZjRlYmRlZjY5MGE4Kn5obWFjPWI3ZGNkYTUyZGVjMjdlMTdkNTBmYWRiNjdjNmI0NTYyMWI4NzRiY2Q0OTgyNmRhODM5OWUzYjgxN2M5OGNjMTU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/39-avatar.jpg',
     name: 'Anastasiia Lofytska',
     zone: Zone.DesignAndContent,
     gender: 'Female',
@@ -431,8 +393,7 @@ export const employees: Employee[] = [
   },
   {
     id: '40',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/1929a0e3-7e6e-477c-9566-a637f3ea66b6?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NDczOTU2Mn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMTkyOWEwZTMtN2U2ZS00NzdjLTk1NjYtYTYzN2YzZWE2NmI2Kn5obWFjPWFkYjY1ZjNkNTA2YjJlMjQ5YWQ3OGMzMjkyZDU1NzdjNTk4NTIxZDk5MTljMDhmMzZhMmY3ZThiOWUxYTk1YjA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/40-avatar.jpg',
     name: 'Viktor Shaituro',
     zone: Zone.Marketing,
     gender: 'Male',
@@ -442,8 +403,7 @@ export const employees: Employee[] = [
   },
   {
     id: '41',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/fcda77e9-cf45-49c7-9d60-c9c8b276e89d?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTM0NTEzM35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZmNkYTc3ZTktY2Y0NS00OWM3LTlkNjAtYzljOGIyNzZlODlkKn5obWFjPTg1NDE0NjQxMjZhYWVkNzFjYjA0ZGQ0ZjNmYTJjOGEyODMxODA3N2Y0MjliMTUzYmQyNTFkMTJjNjRlYWVkNTA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/41-avatar.jpg',
     name: 'Oleksii Sobko',
     zone: Zone.Marketing,
     gender: 'Male',
@@ -453,8 +413,7 @@ export const employees: Employee[] = [
   },
   {
     id: '42',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/b8607370-c3c4-461f-ba43-875f9573ad46?token=X19jbGRfdG9rZW5fXz1leHA9MTc0ODY1Mzk5Nn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYjg2MDczNzAtYzNjNC00NjFmLWJhNDMtODc1Zjk1NzNhZDQ2Kn5obWFjPTJmMTFhMjliYTQ5N2FjYWIzNTE2ZDhhN2ZlMzJjZDFkYjc1YTM4NzdlNzM3NTg0NWI3MTVjNzU0NWJiNWI4NjA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/42-avatar.jpg',
     name: 'Oleksandr Kurylenko',
     zone: Zone.Marketing,
     gender: 'Male',
@@ -464,8 +423,7 @@ export const employees: Employee[] = [
   },
   {
     id: '43',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/3106504f-65d2-4181-96d7-22bcc642c98d?token=X19jbGRfdG9rZW5fXz1leHA9MTc1Mzg2MDA5MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMzEwNjUwNGYtNjVkMi00MTgxLTk2ZDctMjJiY2M2NDJjOThkKn5obWFjPWU1NzBlZmIyOTE0ZWRjNzAwZjU4YTNlMGQ1MjAwMzAwNjdjNTkxMWJlYmVhMjk2ODAzMTJkNDBkZTA5NmU0NzQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/43-avatar.jpg',
     name: 'Kateryna Halstian',
     zone: Zone.Marketing,
     gender: 'Female',
@@ -475,8 +433,7 @@ export const employees: Employee[] = [
   },
   {
     id: '44',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/fec74402-c208-4cab-836b-028b58ad2d8b?token=X19jbGRfdG9rZW5fXz1leHA9MTc1Njk0ODMyMn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZmVjNzQ0MDItYzIwOC00Y2FiLTgzNmItMDI4YjU4YWQyZDhiKn5obWFjPTgzZGIwMmQ1OWVhOTc5MGU1YzYwNTg3NjU2Yzk5ZTA0MTRkYjFlMWE5NmVlMzAwNGQ0ODNiNjIxYjU3ODUyNWQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/44-avatar.jpg',
     name: 'Iryna Korinchak',
     zone: Zone.Marketing,
     gender: 'Female',
@@ -486,8 +443,7 @@ export const employees: Employee[] = [
   },
   {
     id: '45',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/d32c9b67-6859-4c76-9286-e66c891ca6be?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NzYxNzE0N35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZDMyYzliNjctNjg1OS00Yzc2LTkyODYtZTY2Yzg5MWNhNmJlKn5obWFjPWI0YjBjOGZmYzQzMWI5YjlhYWVkOTkyZTFiYTE4YzM2OGJjNjcwMmE0ZTIyZjQ2N2M1ZDUzNzE5NDQ1ZjhjNmU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/45-avatar.jpg',
     name: 'Oleksandr Mazur',
     zone: Zone.Marketing,
     gender: 'Male',
@@ -497,8 +453,7 @@ export const employees: Employee[] = [
   },
   {
     id: '46',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/2f425c69-9cdb-4d34-923d-fcb9bc69b94b?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MjE5NjM0MX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMmY0MjVjNjktOWNkYi00ZDM0LTkyM2QtZmNiOWJjNjliOTRiKn5obWFjPWUyYTEyN2RhNjJlNmY5YzM2NzI5NWEwM2U3NGYwNDk3OGU2NmQ3OTNlMmRhYWIwNDY4NGNmM2IwMTQ0MTliOTg=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/46-avatar.jpg',
     name: 'Maksym Hordiienko',
     zone: Zone.DesignAndContent,
     gender: 'Male',
@@ -508,8 +463,7 @@ export const employees: Employee[] = [
   },
   {
     id: '47',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/66758900-8a5b-4bd7-8566-deb292160c73?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTY3Nzk4M35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNjY3NTg5MDAtOGE1Yi00YmQ3LTg1NjYtZGViMjkyMTYwYzczKn5obWFjPTJkNWJjYWJkN2QyYTRiYTBiOGUzMGI5ODYzNDQ3NzUwNWIzZDE1OTFkODUzOTgwMDlmYzZlY2I3Yzg3NDAzMTA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/47-avatar.jpg',
     name: 'Oleksandra Svyda',
     zone: Zone.DesignAndContent,
     gender: 'Female',
@@ -519,8 +473,7 @@ export const employees: Employee[] = [
   },
   {
     id: '48',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/3fde34c8-1e87-4301-9e1f-20fddb4c40ab?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDQ0Mjc2N35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmM2ZkZTM0YzgtMWU4Ny00MzAxLTllMWYtMjBmZGRiNGM0MGFiKn5obWFjPTU0YjA1YjM0N2U3NDlkNmM0MGJmY2Q4NmMwNjJhZjQxN2VjNjBiNTM3YjY0OWMzMzMzMDVhZDVjOWJlYzlmYzM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/48-avatar.jpg',
     name: 'Bohdan Hudzenko',
     zone: Zone.Product,
     gender: 'Male',
@@ -530,8 +483,7 @@ export const employees: Employee[] = [
   },
   {
     id: '49',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/98e40ba2-1966-4f00-949d-86ba7e76b4be?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTMwNjc0MX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOThlNDBiYTItMTk2Ni00ZjAwLTk0OWQtODZiYTdlNzZiNGJlKn5obWFjPTA1OGFkYTc0ODg2YjlmZGIyNzU1ZWViZTczMzNkMjZmYWMxZWM1NDQ2MjQyMjk1NjI3ZmU3NmYxNDA0NDNkNWU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/49-avatar.jpg',
     name: 'Yuliia Hordiienko',
     zone: Zone.Product,
     gender: 'Female',
@@ -541,8 +493,7 @@ export const employees: Employee[] = [
   },
   {
     id: '50',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a22440a5-0762-4fd1-a39d-b96ace4b71a9?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTI4NDM2OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTIyNDQwYTUtMDc2Mi00ZmQxLWEzOWQtYjk2YWNlNGI3MWE5Kn5obWFjPWNlOTM2ZmQyZDljZGQ1OTMzOGNlZDdlYjViOTRmNWFlYTI4NTNiZGY5MGQwMTJmYTUzYTdiNmQ0ODFhZTY4ZTc=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/50-avatar.jpg',
     name: 'Yuliia Lavrenko',
     zone: Zone.Product,
     gender: 'Female',
@@ -552,8 +503,7 @@ export const employees: Employee[] = [
   },
   {
     id: '51',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/7d77e0db-9451-43cc-9ef0-527b6c8be9a7?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTY1MTUwN35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmN2Q3N2UwZGItOTQ1MS00M2NjLTllZjAtNTI3YjZjOGJlOWE3Kn5obWFjPTMxMjMzZjYxM2FmNzA4OGUxOTAxYWJiN2QyNThhY2YyZDBiNWFmMjdmYWIxODFjY2YyZWFmODM5NGMzMmYxNWU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/51-avatar.jpg',
     name: 'Oles Naida',
     zone: Zone.Product,
     gender: 'Male',
@@ -563,8 +513,7 @@ export const employees: Employee[] = [
   },
   {
     id: '52',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/aef0b49b-9a5b-43a5-8325-51937e8e5db9?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTQzMTU0Mn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWVmMGI0OWItOWE1Yi00M2E1LTgzMjUtNTE5MzdlOGU1ZGI5Kn5obWFjPTBiYmQ3ZWNmODg0ZDQzYzU0YmVjZTk3YTJmYWQ1YWI1YjM5NzAwYWIyZGIwMTI4NDliNTdlNDA4NDdkOGMxNjE=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/52-avatar.jpg',
     name: 'Vitalii Yovko',
     zone: Zone.Operations,
     gender: 'Male',
@@ -574,8 +523,7 @@ export const employees: Employee[] = [
   },
   {
     id: '53',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/b19d3369-f221-4717-9aa2-3c43c47a704f?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDUyOTEyNX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYjE5ZDMzNjktZjIyMS00NzE3LTlhYTItM2M0M2M0N2E3MDRmKn5obWFjPTVjM2QwYmFkNWQyNTRkNmIzNGRmMzc0NWY2YjRiYTNlODlhNTQ4NmM4NzRiNWFhMGFkMTNlZTdhMGM5MGNlNzM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/53-avatar.jpg',
     name: 'Serhii Zubov',
     zone: Zone.Backend,
     gender: 'Male',
@@ -585,8 +533,7 @@ export const employees: Employee[] = [
   },
   {
     id: '54',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ad475940-0fcb-4322-85c1-f67689669663?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MjgwMTE1Nn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYWQ0NzU5NDAtMGZjYi00MzIyLTg1YzEtZjY3Njg5NjY5NjYzKn5obWFjPWVkOTg1NGVkZDA3ZDAyMGQ1Yzg3MDcwY2RkMzUzNTQ1MmQ1NzQ2YjkyOTM4MDc0NGFhMDUxZWNkZjY1NzIxMTk=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/54-avatar.jpg',
     name: 'Oleksii Vasylenko',
     zone: Zone.Backend,
     gender: 'Male',
@@ -596,8 +543,7 @@ export const employees: Employee[] = [
   },
   {
     id: '55',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/d8d04e71-238c-48b7-8a5b-754f746e2381?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NzM1Nzk5Nn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZDhkMDRlNzEtMjM4Yy00OGI3LThhNWItNzU0Zjc0NmUyMzgxKn5obWFjPTRmMWM2Mzg5M2RiYzUyZTIxNWI2MWY4MDAyODhlNGY1ZmM4ZWY4YTk5MTU1N2EzMDgwMTIyMjdlMDE1YjE5MGI=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/55-avatar.jpg',
     name: 'Oleksii Ilin',
     zone: Zone.Backend,
     gender: 'Male',
@@ -607,8 +553,7 @@ export const employees: Employee[] = [
   },
   {
     id: '56',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/e32963f0-5814-431c-86e2-919fff62f376?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NTQ1NzE3NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZTMyOTYzZjAtNTgxNC00MzFjLTg2ZTItOTE5ZmZmNjJmMzc2Kn5obWFjPWVmNTg1NTI1ZGNiMjU1YTVhZTk2OTI5NzRjOGVjYWE1ZWVlYzhjYzAzNjBmZDYxNmZkODYwZWVlYTJjNGU1Mjg=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/56-avatar.jpg',
     name: 'Maksym Chaika',
     zone: Zone.Backend,
     gender: 'Male',
@@ -618,8 +563,7 @@ export const employees: Employee[] = [
   },
   {
     id: '57',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/374c2165-00c8-478f-8f4b-f4ef71bef87f?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MzQwNjAzNH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMzc0YzIxNjUtMDBjOC00NzhmLThmNGItZjRlZjcxYmVmODdmKn5obWFjPWZkNTc1ODAxZWM3NzU0MDkwYTVkZjdkMDUzNmI0NGFkNDVmMDliNjE4OTc1MjFmNTNhZTUyYzhhMTliMGZlMzM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/57-avatar.jpg',
     name: 'Dariia Moisol',
     zone: Zone.Backend,
     gender: 'Female',
@@ -629,8 +573,7 @@ export const employees: Employee[] = [
   },
   {
     id: '58',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/2c34f389-dcfd-4a7a-86b8-777272cbbe1b?token=X19jbGRfdG9rZW5fXz1leHA9MTc0MjY5MjQyMn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMmMzNGYzODktZGNmZC00YTdhLTg2YjgtNzc3MjcyY2JiZTFiKn5obWFjPThiNzI2YmEzOWM0MTJkYmZmNThjZTM1YTE2YmMzZmNlMDI3MWE1ZDNhZjUwNzMwNDNmMjZhYTJhZjdkYjNhNDE=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/58-avatar.jpg',
     name: 'Artem Porubai',
     zone: Zone.Backend,
     gender: 'Male',
@@ -640,8 +583,7 @@ export const employees: Employee[] = [
   },
   {
     id: '59',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/d69b7e47-550e-4185-b2d1-90fdcc6b04a8?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NzYxNzE0N35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZDY5YjdlNDctNTUwZS00MTg1LWIyZDEtOTBmZGNjNmIwNGE4Kn5obWFjPTE3MDJkYjYwZTA0MDVhMTU2ZGNjMjMxNzRlNzcwMDczMDlmNTlmY2Q4NmE0NTJlOWU1MDdjMzc5MTNlNjBmZTA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/59-avatar.jpg',
     name: 'Yevheniia Oshurko',
     zone: Zone.Analytics,
     gender: 'Female',
@@ -651,8 +593,7 @@ export const employees: Employee[] = [
   },
   {
     id: '60',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/27003911-4b49-45f8-aa22-9cf0be0da77d?token=X19jbGRfdG9rZW5fXz1leHA9MTc0Mzk4ODM0M35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMjcwMDM5MTEtNGI0OS00NWY4LWFhMjItOWNmMGJlMGRhNzdkKn5obWFjPTIxYjE0ZDk4YzI0YWUzYjYxMmFjYzczOWQ0NWY5OGNiNTY4MWI2ZjNkMTI5ZDkwNTM1M2JiMzBlOTRiNTg0YjA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/60-avatar.jpg',
     name: 'Vladyslav Orliuk',
     zone: Zone.Analytics,
     gender: 'Male',
@@ -662,8 +603,7 @@ export const employees: Employee[] = [
   },
   {
     id: '61',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/d3546e90-e2a7-454b-8271-0be943b6d63f?token=X19jbGRfdG9rZW5fXz1leHA9MTc0OTMwNDYyM35hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZDM1NDZlOTAtZTJhNy00NTRiLTgyNzEtMGJlOTQzYjZkNjNmKn5obWFjPTM4MmZmOWM3YjFmMmE0M2E3NDhiNTYyOWM4YmQxOTFlOGVhMzNiYzI0ZGUwNGRiNDIyNzhmYTU2NTQxMDk5MWQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/61-avatar.jpg',
     name: 'Vitaliy Muzychuk',
     zone: Zone.Analytics,
     gender: 'Male',
@@ -673,8 +613,7 @@ export const employees: Employee[] = [
   },
   {
     id: '62',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/3d48884f-cfbe-458a-9b29-bae01a29b9c1?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NjYxMDkxNH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmM2Q0ODg4NGYtY2ZiZS00NThhLTliMjktYmFlMDFhMjliOWMxKn5obWFjPWY1NDRkZWZjZjUzZjc0ZDg1NDU0YjVkY2Y3YTI4MTRmOGYwODk0NzNmN2I2MjEzNGQ5NzAyOWNjM2UxZjhmZjU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/62-avatar.jpg',
     name: 'Iryna Babych',
     zone: Zone.Analytics,
     gender: 'Female',
@@ -684,8 +623,7 @@ export const employees: Employee[] = [
   },
   {
     id: '63',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/16d206b2-d06c-44fc-985a-d9389e63cdad?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MTM3ODI2NX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMTZkMjA2YjItZDA2Yy00NGZjLTk4NWEtZDkzODllNjNjZGFkKn5obWFjPWVjYTZjYWMzZGQwYTAxMjI5NjNkOGFjZTQ1NmFmYzQ3MjBmOTBjMjFlNDc2Mzg5NGIxOGE4M2Y1N2M5OWE3ZmY=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/63-avatar.jpg',
     name: 'Illia Dermenzhy',
     zone: Zone.Analytics,
     gender: 'Male',
@@ -695,8 +633,7 @@ export const employees: Employee[] = [
   },
   {
     id: '64',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/c5278fa5-5142-4a96-9b86-8c3fdb0fb0c0?token=X19jbGRfdG9rZW5fXz1leHA9MTc1MzkyNDQ2MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYzUyNzhmYTUtNTE0Mi00YTk2LTliODYtOGMzZmRiMGZiMGMwKn5obWFjPTFlMzcxMTkzOGQwMDUxMjM5MTVlNjg0MmY2YTY3MjdmODMyNzYxYTNlODgzNmNiYTczOWQwYjdjYTk4MzRkZGQ=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/64-avatar.jpg',
     name: 'Daniil Tkachenko',
     zone: Zone.Analytics,
     gender: 'Male',
@@ -706,8 +643,7 @@ export const employees: Employee[] = [
   },
   {
     id: '65',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/6c520e26-e878-49a1-bccc-2ec28d2932a3?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDE4MzU4Mn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNmM1MjBlMjYtZTg3OC00OWExLWJjY2MtMmVjMjhkMjkzMmEzKn5obWFjPWU0YmMxMGRmZDJkYmRiZWFhMzlkZWY0YTI5YzdiZTQxZmQzYzg2NGI1YjI0NjJlMjk2ZGQ3MTI1YjFhOWRmODc=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/65-avatar.jpg',
     name: 'Bohdan Perepelytsia',
     zone: Zone.Analytics,
     gender: 'Male',
@@ -717,8 +653,7 @@ export const employees: Employee[] = [
   },
   {
     id: '66',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a382d7d8-6bc7-4fd6-9787-497df2710544?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTIwMzY4MX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTM4MmQ3ZDgtNmJjNy00ZmQ2LTk3ODctNDk3ZGYyNzEwNTQ0Kn5obWFjPTNjZjg3MjU1NDI0Zjg2MzA4ZmVmY2E1YjBkYjVlYzlhYzc2ZGMyNTNiYjUxOWE4N2Y1OWFjY2YxZWQ2MTRiYWI=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/66-avatar.jpg',
     name: 'Yuliia Holovatska',
     zone: Zone.DesignAndContent,
     gender: 'Female',
@@ -728,8 +663,7 @@ export const employees: Employee[] = [
   },
   {
     id: '67',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/675e5420-55af-4feb-bc9a-d3f753c8a539?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDE4MzcwMn5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmNjc1ZTU0MjAtNTVhZi00ZmViLWJjOWEtZDNmNzUzYzhhNTM5Kn5obWFjPTY3ZDMxMWZjOGVjYmZlYzExZTdjZjU3MjkwMzQ3MmRiMzUwMTY4NTVjMmY2MGI1MDE3OTllY2IwNDlhZmRlMTc=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/67-avatar.jpg',
     name: 'Pavlo Mykytas',
     zone: Zone.Payments,
     gender: 'Male',
@@ -739,8 +673,7 @@ export const employees: Employee[] = [
   },
   {
     id: '68',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/8f2a80d4-e803-46ae-a076-ff4515a52f0c?token=X19jbGRfdG9rZW5fXz1leHA9MTc0NTc4OTg5OH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmOGYyYTgwZDQtZTgwMy00NmFlLWEwNzYtZmY0NTE1YTUyZjBjKn5obWFjPTg5ODYxMzA2YzQ0MGY0NzM5MmNhYTAxNDI1OTg4ODc0MzA3OGE4MmJmZmQwNWEzYTBkZGJiNWY1ZGFjYjUxNDU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/68-avatar.jpg',
     name: 'Anastasiia Mostovenko',
     zone: Zone.Product,
     gender: 'Female',
@@ -750,8 +683,7 @@ export const employees: Employee[] = [
   },
   {
     id: '69',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/ed6f553f-0412-49d1-91c7-f0a1047bf28b?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTE4NTQ4MX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmZWQ2ZjU1M2YtMDQxMi00OWQxLTkxYzctZjBhMTA0N2JmMjhiKn5obWFjPTlmMTFhMGQxYmVjNmUwYTNlZmE3Nzc0MzAwYzAyMjMwNzkxNWM3Yzg4YTM0OGVkNDBjNjUzMzY4NTkxNDljZWI=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/69-avatar.jpg',
     name: 'Valeriia Volkova',
     zone: Zone.DesignAndContent,
     gender: 'Female',
@@ -761,8 +693,7 @@ export const employees: Employee[] = [
   },
   {
     id: '70',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/cbec8e30-9d99-4a50-a6a4-162582768f69?token=X19jbGRfdG9rZW5fXz1leHA9MTc1Njg1MjIwMX5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmY2JlYzhlMzAtOWQ5OS00YTUwLWE2YTQtMTYyNTgyNzY4ZjY5Kn5obWFjPTY5YzVjY2FiMmUwM2Y5YjhhZDQyNTIxNTI2NWUzZjZkY2I3YzZjNjkzZmFmMWFhMWMyYjExN2JhM2RiNjllYmU=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/70-avatar.jpg',
     name: 'Volodymyr Bozhko',
     zone: Zone.HR,
     gender: 'Male',
@@ -772,8 +703,7 @@ export const employees: Employee[] = [
   },
   {
     id: '71',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/0c2d291c-6883-465d-9cd1-add673593992?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NDkwNTg5MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmMGMyZDI5MWMtNjg4My00NjVkLTljZDEtYWRkNjczNTkzOTkyKn5obWFjPTFiMGVlMzNhYmQ1ODQzMTZlNDlmMmU2ZmFhNjZlNGIxMzg3MjljNGFlOGJmY2RmNmNkMWI5ZDkyZjRlYzZhNzA=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/71-avatar.jpg',
     name: 'Mykhailo Shylo',
     zone: Zone.Frontend,
     gender: 'Male',
@@ -783,8 +713,7 @@ export const employees: Employee[] = [
   },
   {
     id: '72',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/a7d34a60-100e-43d9-8d3f-26619dba4bc7?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NjIxNTU1NH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYTdkMzRhNjAtMTAwZS00M2Q5LThkM2YtMjY2MTlkYmE0YmM3Kn5obWFjPTA0YWJmZjdiMzM3N2E5MTQ5NzFkNDFmMjZhMmZhYTdjYzIwNTZkMzFhYjljNGIzNTZiYzc2Y2JlOTdlMDZkOWM=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/72-avatar.jpg',
     name: 'Yuliia Zaiats',
     zone: Zone.Frontend,
     gender: 'Female',
@@ -794,8 +723,7 @@ export const employees: Employee[] = [
   },
   {
     id: '73',
-    avatar:
-      'https://media-process.hibob.com/image/upload/q_auto:best,f_jpg,c_limit,a_exif,t_avatar,w_860,h_860/hibob/avatar/134451/images/c5271159-aac7-4438-8b18-4c4f74d4028f?token=X19jbGRfdG9rZW5fXz1leHA9MTc1NTUyNzg3MH5hY2w9KiUyZmhpYm9iJTJmYXZhdGFyJTJmMTM0NDUxJTJmaW1hZ2VzJTJmYzUyNzExNTktYWFjNy00NDM4LThiMTgtNGM0Zjc0ZDQwMjhmKn5obWFjPWI1NGU1NDI5N2NhMTA2MWM3NjlhYjFlMWEzYWUxYTEwYjA4NzQ2YjMzYTkyN2EyOWM0YmYzMzI2ZDE0MjI3YmI=&vendor=cloudinary',
+    avatar: 'https://kwv9prk72qe42rbz.public.blob.vercel-storage.com/73-avatar.jpg',
     name: 'Andrii Sviatovets',
     zone: Zone.Product,
     gender: 'Male',
