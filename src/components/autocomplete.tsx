@@ -3,41 +3,24 @@
 import { Autocomplete, AutocompleteItem } from '@heroui/autocomplete';
 import { Avatar } from '@heroui/avatar';
 import { SearchIcon } from '@/components/ui/search-icon';
-import { getEmployees } from '@/lib/employees';
-import { Key, useState, useRef, useEffect } from 'react';
+import { Key, useRef } from 'react';
 import { Employee } from '@/types/types';
 import { useGame } from '@/contexts/game-context';
 
 export const EmployeesAutocomplete = () => {
-  const { guessedEmployees, addGuess, showWinningCard, isGameWon } = useGame();
+  const { guessedEmployees, addGuess, showWinningCard, isGameWon, allEmployees } = useGame();
   const autocompleteRef = useRef<HTMLInputElement>(null);
-  const [availableEmployees, setAvailableEmployees] = useState<Employee[]>([]);
-
-  useEffect(() => {
-    const fetchEmployees = async () => {
-      try {
-        const employees = await getEmployees();
-        setAvailableEmployees([...employees].sort((a, b) => a.name.localeCompare(b.name)));
-      } catch (error) {
-        console.error('Error fetching employees:', error);
-      }
-    };
-
-    fetchEmployees();
-  }, []);
 
   // Filter out already guessed employees from the available options
-  const filteredEmployees = availableEmployees.filter(
+  const filteredEmployees = allEmployees.filter(
     (employee) => !guessedEmployees.some((guessed) => guessed.id === employee.id)
   );
 
   const handleSelectionChange = (employeeId: Key | null) => {
     if (employeeId) {
-      const selectedEmployee = availableEmployees.find((emp) => emp.id === employeeId);
-
+      const selectedEmployee = allEmployees.find((emp) => emp.id === employeeId);
       if (selectedEmployee) {
         addGuess(selectedEmployee);
-        setAvailableEmployees((prev) => prev.filter((emp) => emp.id !== employeeId));
         // Unfocus the input after selection
         autocompleteRef.current?.blur();
       }

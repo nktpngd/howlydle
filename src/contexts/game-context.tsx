@@ -8,6 +8,7 @@ interface GameContextType {
   secretEmployee: Employee;
   yesterdayEmployee: Employee | null;
   guessedEmployees: Employee[];
+  allEmployees: Employee[];
   addGuess: (employee: Employee) => void;
   isGameWon: boolean;
   numberOfTries: number;
@@ -73,14 +74,16 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [secretEmployee, setSecretEmployee] = useState<Employee | null>(null);
   const [yesterdayEmployee, setYesterdayEmployee] = useState<Employee | null>(null);
   const [guessedEmployees, setGuessedEmployees] = useState<Employee[]>([]);
+  const [allEmployees, setAllEmployees] = useState<Employee[]>([]);
   const [showWinningCard, setShowWinningCard] = useState(false);
 
   useEffect(() => {
     const initializeGame = async () => {
       try {
-        const allEmployees = await getEmployees();
-        const todayEmployee = await getDailyEmployee(allEmployees);
-        const yesterdayEmp = await getYesterdayEmployee(allEmployees);
+        const employees = await getEmployees();
+        setAllEmployees([...employees].sort((a, b) => a.name.localeCompare(b.name)));
+        const todayEmployee = await getDailyEmployee(employees);
+        const yesterdayEmp = await getYesterdayEmployee(employees);
 
         setSecretEmployee(todayEmployee);
         setYesterdayEmployee(yesterdayEmp);
@@ -108,6 +111,7 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
         secretEmployee,
         yesterdayEmployee,
         guessedEmployees,
+        allEmployees,
         addGuess,
         isGameWon,
         numberOfTries: guessedEmployees.length,
