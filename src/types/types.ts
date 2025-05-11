@@ -17,8 +17,8 @@ export enum Affiliation {
   Tech = 'Tech',
   PDFAid = 'PDFAid',
   LegalAnswers = 'Legal Answers',
-  BetterCV = 'Better CV',
-  LegalForms = 'Legal Forms',
+  BetterJob = 'Better Job',
+  LookupLabs = 'Lookup Labs',
   Shared = 'Shared',
 }
 

@@ -7,13 +7,34 @@ import { Spotlight } from '@/components/ui/spotlight';
 import dynamic from 'next/dynamic';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useResetTimer } from '@/hooks/use-reset-timer';
+import { Employee } from '@/types/types';
 
 const Confetti = dynamic(() => import('react-confetti'), {
   ssr: false,
 });
 
+const NearMissCard = ({ lastGuess }: { lastGuess: Employee }) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 20 }}
+      className="max-w-[520px] w-full mx-auto mt-6 p-4 rounded-xl bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-700"
+    >
+      <div className="flex items-center gap-2 mb-2">
+        <span className="text-xl">🤔</span>
+        <h3 className="text-lg font-medium text-yellow-800 dark:text-yellow-200">Almost there!</h3>
+      </div>
+      <p className="text-sm text-yellow-700 dark:text-yellow-300">
+        {lastGuess.name} matches all the attributes, but they&apos;re not today&apos;s employee.
+        You&apos;re very close!
+      </p>
+    </motion.div>
+  );
+};
+
 export const WinningCard = () => {
-  const { numberOfTries, secretEmployee, showWinningCard } = useGame();
+  const { numberOfTries, secretEmployee, showWinningCard, guessedEmployees } = useGame();
   const [windowSize, setWindowSize] = useState({
     width: 0,
     height: 0,
@@ -21,6 +42,17 @@ export const WinningCard = () => {
 
   // Use our custom hook
   const timeUntilReset = useResetTimer();
+
+  // Check if the last guess matches all attributes but isn't the correct employee
+  const lastGuess = guessedEmployees[guessedEmployees.length - 1];
+  const isNearMiss =
+    lastGuess &&
+    !showWinningCard &&
+    lastGuess.zone === secretEmployee.zone &&
+    lastGuess.affiliation === secretEmployee.affiliation &&
+    lastGuess.age === secretEmployee.age &&
+    lastGuess.gender === secretEmployee.gender &&
+    lastGuess.id !== secretEmployee.id;
 
   useEffect(() => {
     // Set window size for confetti
@@ -201,6 +233,7 @@ export const WinningCard = () => {
           </motion.div>
         </>
       )}
+      {isNearMiss && <NearMissCard lastGuess={lastGuess} />}
     </AnimatePresence>
   );
 };
