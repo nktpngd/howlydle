@@ -10,7 +10,7 @@ export enum Zone {
   Payments = 'Payments',
   Growth = 'Growth',
   HR = 'HR',
-  None = 'None',
+  Other = 'Other',
 }
 
 export enum Affiliation {
