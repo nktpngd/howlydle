@@ -9,12 +9,13 @@ interface Props {
   employee: Employee;
   secretEmployee: Employee;
   index: number;
+  totalGuesses: number;
 }
 
-export const TableRow: FC<Props> = ({ employee, secretEmployee, index }) => {
+export const TableRow: FC<Props> = ({ employee, secretEmployee, index, totalGuesses }) => {
   const { isGameWon, setShowWinningCard } = useGame();
   const comparison = compareEmployees(employee, secretEmployee);
-  const isNewRow = index === 0;
+  const isNewRow = index === totalGuesses - 1;
 
   const cellData: CellData[] = [
     {

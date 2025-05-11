@@ -21,6 +21,11 @@ const GameContext = createContext<GameContextType | undefined>(undefined);
 // Reset hour constant (00:00 UTC)
 const RESET_HOUR_UTC = 0;
 
+// Function to get a storage key based on date
+const getStorageKey = (date: Date) => {
+  return `howlydle-guesses-${date.getUTCFullYear()}-${date.getUTCMonth() + 1}-${date.getUTCDate()}`;
+};
+
 // Function to get an employee for a specific date
 const getEmployeeForDate = async (date: Date, allEmployees: Employee[]): Promise<Employee> => {
   // Create a deterministic seed based on the date
@@ -85,6 +90,15 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
         const todayEmployee = await getDailyEmployee(employees);
         const yesterdayEmp = await getYesterdayEmployee(employees);
 
+        // Load saved guesses for today
+        const now = new Date();
+        const storageKey = getStorageKey(now);
+        const savedGuesses = localStorage.getItem(storageKey);
+        if (savedGuesses) {
+          const parsedGuesses = JSON.parse(savedGuesses);
+          setGuessedEmployees(parsedGuesses);
+        }
+
         setSecretEmployee(todayEmployee);
         setYesterdayEmployee(yesterdayEmp);
       } catch (error) {
@@ -96,7 +110,14 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   const addGuess = (employee: Employee) => {
-    setGuessedEmployees((prev) => [...prev, employee]);
+    setGuessedEmployees((prev) => {
+      const newGuesses = [...prev, employee];
+      // Save to localStorage
+      const now = new Date();
+      const storageKey = getStorageKey(now);
+      localStorage.setItem(storageKey, JSON.stringify(newGuesses));
+      return newGuesses;
+    });
   };
 
   const isGameWon = guessedEmployees.some((employee) => employee.id === secretEmployee?.id);

@@ -16,6 +16,7 @@ export const TableRows: FC<Props> = ({ employees, secretEmployee }) => {
           employee={employee}
           secretEmployee={secretEmployee}
           index={index}
+          totalGuesses={employees.length}
         />
       ))}
     </div>
