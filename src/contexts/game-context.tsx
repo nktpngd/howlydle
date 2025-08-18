@@ -111,7 +111,7 @@ export const GameProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const addGuess = (employee: Employee) => {
     setGuessedEmployees((prev) => {
-      const newGuesses = [...prev, employee];
+      const newGuesses = [employee, ...prev];
       // Save to localStorage
       const now = new Date();
       const storageKey = getStorageKey(now);

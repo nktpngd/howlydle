@@ -15,7 +15,7 @@ interface Props {
 export const TableRow: FC<Props> = ({ employee, secretEmployee, index, totalGuesses }) => {
   const { isGameWon, setShowWinningCard } = useGame();
   const comparison = compareEmployees(employee, secretEmployee);
-  const isNewRow = index === totalGuesses - 1;
+  const isNewRow = index === 0;
 
   const cellData: CellData[] = [
     {
