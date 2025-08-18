@@ -13,7 +13,7 @@ export default function LandingPage() {
         <Logo />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
         <GameModeCard
           title="Classic"
           description="Guess today's mystery employee with clues."
@@ -21,29 +21,16 @@ export default function LandingPage() {
           href="/classic"
         />
         <GameModeCard
-          title="Trivia"
-          description="A trivia game about company culture and employees."
-          isAvailable={false}
+          title="Zoom"
+          description="Guess the employee from a zoomed photo."
+          isAvailable={true}
+          href="/zoom"
         />
         <GameModeCard
-          title="Desk Detective"
-          description="Guess the employee based on their workspace."
-          isAvailable={false}
-        />
-        <GameModeCard
-          title="Emoji-ployee"
-          description="Decode employee names using only emojis."
-          isAvailable={false}
-        />
-        <GameModeCard
-          title="Who’s That Voice?"
-          description="Identify the speaker from a short audio clip."
-          isAvailable={false}
-        />
-        <GameModeCard
-          title="Shadow Staff"
-          description="Guess the employee based on their mysterious silhouette."
-          isAvailable={false}
+          title="Zoom (Infinity Test)"
+          description="Testing mode: new random employee on refresh."
+          isAvailable={true}
+          href="/zoom/infinity"
         />
       </div>
     </Wrapper>
